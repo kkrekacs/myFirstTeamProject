@@ -9,11 +9,11 @@
   <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <!-- Ionicons -->
   <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="dist/css/AdminLTE.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
@@ -51,16 +51,9 @@
       <nav class="navbar navbar-static-top">
         <!-- Sidebar toggle button-->
         <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-  
-        <div class="navbar-custom-menu">
-          <ul class="nav navbar-nav">
-              </ul>
-        </div>
+          <span class="sr-only">Navigáció</span>
+          <span class="fas fa-bars"></span>
+        </a>       
       </nav>
     </header>
   
@@ -69,32 +62,33 @@
     <!-- Left side column. contains the sidebar -->
     <aside class="main-sidebar">
       <!-- sidebar: style can be found in sidebar.less -->
-      <section class="sidebar">
-        <!-- /.search form -->
+      <section class="sidebar">        
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu" data-widget="tree">
-          <li class="header">Főmenü</li>
+          <li class="header">Navigáció</li>
           <li>
             <a href="login.html">
-              <i class="fa fa-dashboard"></i> <span>Bejelentkezés</span>
+              <i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;<span>Bejelentkezés</span>
             </a>
           </li>
           <li>
             <a href="customer.html">
-              <i class="fa fa-dashboard"></i> <span>Vásárlók</span>
+              <i class="fas fa-users"></i>&nbsp;&nbsp;<span>Vásárlók</span>
             </a>
           </li>
-          <li>
+          <li class="active">
             <a href="product.html">
-              <i class="fa fa-dashboard"></i> <span>Termékek</span>
+                <i class="fas fa-basketball-ball"></i>&nbsp;&nbsp;<span>Termékek</span>
             </a>
           </li>
           <li>
             <a href="order.html">
-              <i class="fa fa-dashboard"></i> <span>Megrendelések</span>
+              <i class="fas fa-truck"></i>&nbsp;&nbsp;<span>Megrendelések</span>
+              <span class="pull-right-container">
+              <span class="label label-primary pull-right">6 új</span>
+              </span>
             </a>
           </li>
-        </ul>
       </section>
     <!-- /.sidebar -->
   </aside>
