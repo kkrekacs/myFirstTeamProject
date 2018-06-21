@@ -251,9 +251,10 @@ a:focus {
   background-image: none;
   padding: 15px 15px;
   font-family: fontAwesome;
+  
 }
 .main-header .sidebar-toggle:before {
-  content: "\f0c9";
+  content: "";
 }
 .main-header .sidebar-toggle:hover {
   color: #fff;
