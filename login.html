@@ -1,22 +1,22 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Bejelentkezés</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="plugins/iCheck/square/blue.css">
-
+  <link rel="stylesheet" href="css/AdminLTE.css">
+  <!-- AdminLTE Skins. -->
+  <link rel="stylesheet" href="css/_all-skins.css">
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
   <!-- Favicons -->
@@ -27,141 +27,164 @@
   <link rel="mask-icon" href="img/favicons//safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#ffc40d">
   <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
-  <!-- Site wrapper -->
+
+<body class="hold-transition skin-green sidebar-mini">
   <div class="wrapper">
-  
+
+    <!-- Main Header -->
     <header class="main-header">
+
       <!-- Logo -->
-      <a href="../../index2.html" class="logo">
+      <a href="login.html" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>T</b>360</span>
+        <span class="logo-mini">
+          <img class="teaming-logo-small" src="img/Teaming360logo_only.svg" alt="T360">
+        </span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>Teaming</b>360</span>
+        <span class="logo-lg">
+          <img class="teaming-logo-normal" src="img/Teaming360logo_full.svg" alt="Teaming360">
+        </span>
       </a>
-      <!-- Header Navbar: style can be found in header.less -->
-      <nav class="navbar navbar-static-top">
+
+      <!-- Header Navbar -->
+      <nav class="navbar navbar-static-top" role="navigation">
         <!-- Sidebar toggle button-->
         <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span class="sr-only">Menü ki/bezár</span>
+          <span class="fas fa-bars"></span>
         </a>
-  
-        <div class="navbar-custom-menu">
-          <ul class="nav navbar-nav">
-           </ul>
-        </div>
       </nav>
     </header>
-  
-    <!-- =============================================== -->
-  
-    <!-- Left side column. contains the sidebar -->
+    <!-- Left side column. contains the logo and sidebar -->
     <aside class="main-sidebar">
+
       <!-- sidebar: style can be found in sidebar.less -->
       <section class="sidebar">
+
+        <!-- search form (Optional) -->
+        <form action="#" method="get" class="sidebar-form">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control" placeholder="Keresés...">
+            <span class="input-group-btn">
+              <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                <i class="fa fa-search"></i>
+              </button>
+            </span>
+          </div>
+        </form>
         <!-- /.search form -->
-        <!-- sidebar menu: : style can be found in sidebar.less -->
+
+        <!-- Sidebar Menu -->
         <ul class="sidebar-menu" data-widget="tree">
-          <li class="header">Főmenü</li>
-          <li>
-            <a href="login.html">
-              <i class="fa fa-dashboard"></i> <span>Bejelentkezés</span>
+          <li class="header">NAVIGÁCIÓ</li>
+          <!-- Optionally, you can add icons to the links -->
+          <li class="active">
+            <a href="#">
+              <i class="fas fa-sign-in-alt"></i>
+              <span>&nbsp;&nbsp;Bejelentkezés</span>
             </a>
           </li>
           <li>
             <a href="customer.html">
-              <i class="fa fa-dashboard"></i> <span>Vásárlók</span>
+              <i class="fas fa-users"></i>
+              <span>&nbsp;&nbsp;Vásárlók</span>
             </a>
           </li>
           <li>
             <a href="product.html">
-              <i class="fa fa-dashboard"></i> <span>Termékek</span>
+              <i class="fas fa-basketball-ball"></i>
+              <span>&nbsp;&nbsp;Termékek</span>
             </a>
           </li>
           <li>
             <a href="order.html">
-              <i class="fa fa-dashboard"></i> <span>Megrendelések</span>
+              <i class="fas fa-truck"></i>
+              <span>&nbsp;&nbsp;Megrendelések</span>
             </a>
           </li>
         </ul>
+        <!-- /.sidebar-menu -->
       </section>
       <!-- /.sidebar -->
     </aside>
-  
-    <!-- =============================================== -->
 
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-    <a href="login.html"><b>Teaming</b>360</a>
-  </div>
-  <!-- /.login-logo -->
-  <div class="login-box-body">
-    <p class="login-box-msg">Jelentkezz be, hogy hozzáférhess az oldal tartalmához.</p>
-
-    <form action="login.html" method="post">
-      <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Email">
-        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-      </div>
-      <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Jelszó">
-        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-      </div>
-      <div class="row">
-        <div class="col-xs-8 text-center">
-          <div class="checkbox icheck">
-            <label>
-              <input type="checkbox"> Emlékezz rám
-            </label>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Main content -->
+      <section class="content container-fluid">
+        <div class="login-box">
+          <div class="login-logo">
+            <img class="teaming-logo-medium" src="img/Teaming360logo_only.svg" alt="T360">
+            <br>
+            <a href="login.html"><b>Teaming</b>360</a>
           </div>
+          <!-- /.login-logo -->
+          <div class="login-box-body">
+            <p class="login-box-msg">Jelentkezz be, hogy hozzáférhess az oldal tartalmához.</p>
+        
+            <form action="login.html" method="post">
+              <div class="form-group has-feedback">
+                <input type="email" class="form-control" placeholder="Email">
+                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+              </div>
+              <div class="form-group has-feedback">
+                <input type="password" class="form-control" placeholder="Jelszó">
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+              </div>
+              <div class="row">
+                <div class="col-xs-8 text-center">
+                  <div class="checkbox icheck">
+                    <label>
+                      <input type="checkbox"> Emlékezz rám
+                    </label>
+                  </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-xs-4 text">
+                  <button type="submit" class="btn btn-primary btn-block btn-flat">Belépés</button>
+                </div>
+                <!-- /.col -->
+              </div>
+            </form>
+        
+            <div class="social-auth-links text-center">
+              <p>- VAGY -</p>
+              <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fab fa-facebook"></i> Belépés Facebook fiókkal</a>
+              <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fab fa-google-plus"></i> Belépés Google+ fiókkal</a>
+            </div>
+            <!-- /.social-auth-links -->
+        
+            <a href="#">Elfelejtett jelszó</a><br>
+            <a href="#" class="text-center">Új felhasználó regisztrálása</a>
+        
+          </div>
+          
         </div>
-        <!-- /.col -->
-        <div class="col-xs-4 text">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Belépés</button>
-        </div>
-        <!-- /.col -->
-      </div>
-    </form>
-
-    <div class="social-auth-links text-center">
-      <p>- VAGY -</p>
-      <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Belépés Facebook fiókkal</a>
-      <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Belépés Google+ fiókkal</a>
+      </section>
+      <!-- /.content -->
     </div>
-    <!-- /.social-auth-links -->
+    <!-- /.content-wrapper -->
 
-    <a href="#">Elfelejtett jelszó</a><br>
-    <a href="#" class="text-center">Új felhasználó regisztrálása</a>
-
+    <!-- Main Footer -->
+    <footer class="main-footer">
+      <!-- Default to the left -->
+      <strong>Copyright &copy; 2018
+        <a class="green-text" href="#"><b>Teaming</b>360</a>.</strong> Minden jog fenntartva!.
+    </footer>
   </div>
-  
-</div>
+  <!-- ./wrapper -->
 
-<footer class="main-footer">
-  <strong>Copyright &copy; 2018 <a href="https://adminlte.io"><b>Teaming</b>360</a>.</strong> Minden jog fenntartva!
-</footer>
+  <!-- REQUIRED JS SCRIPTS -->
 
-<!-- jQuery 3 -->
-<!-- Bootstrap 3.3.7 -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-<script src="../../bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-  <!-- FastClick -->
-  <script src="../../bower_components/fastclick/lib/fastclick.js"></script>
+  <!-- jQuery 3 -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap 3.3.7 -->
+  <script src="js/bootstrap.min.js"></script>
   <!-- AdminLTE App -->
-  <script src="../../dist/js/adminlte.min.js"></script>
-  <!-- AdminLTE for demo purposes -->
-  <script src="../../dist/js/demo.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('.sidebar-menu').tree()
-    })
-  </script>
+  <script src="js/adminlte.js"></script>
 </body>
+
 </html>

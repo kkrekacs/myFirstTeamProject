@@ -1,0 +1,22 @@
+img.teaming-logo-small {
+    width: 70%;
+    max-width: 50px;
+}
+
+img.teaming-logo-normal {
+    width: 70%;
+    max-height: 50px;
+}
+
+img.teaming-logo-medium {
+    width: 70%;
+    max-height: 100px;
+}
+
+.login-box {
+    margin: 1% auto;
+}
+
+.green-text {
+    color: #008d4c;
+}

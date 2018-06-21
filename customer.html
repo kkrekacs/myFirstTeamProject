@@ -1,30 +1,22 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Megrendelések</title>
+  <title>Vásárlók</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/AdminLTE.css">
-  <!-- AdminLTE Skins. Choose a skin from the css/skins
-       folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
+  <link rel="stylesheet" href="css/AdminLTE.css">
+  <!-- AdminLTE Skins. -->
+  <link rel="stylesheet" href="css/_all-skins.css">
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
   <!-- Favicons -->
@@ -35,232 +27,255 @@
   <link rel="mask-icon" href="img/favicons//safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#ffc40d">
   <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
-  <!-- Site wrapper -->
+
+<body class="hold-transition skin-green sidebar-mini">
   <div class="wrapper">
-  
+
+    <!-- Main Header -->
     <header class="main-header">
+
       <!-- Logo -->
-      <a href="../../index2.html" class="logo">
+      <a href="login.html" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>T</b>360</span>
+        <span class="logo-mini">
+          <img class="teaming-logo-small" src="img/Teaming360logo_only.svg" alt="T360">
+        </span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>Teaming</b>360</span>
+        <span class="logo-lg">
+          <img class="teaming-logo-normal" src="img/Teaming360logo_full.svg" alt="Teaming360">
+        </span>
       </a>
-      <!-- Header Navbar: style can be found in header.less -->
-      <nav class="navbar navbar-static-top">
+
+      <!-- Header Navbar -->
+      <nav class="navbar navbar-static-top" role="navigation">
         <!-- Sidebar toggle button-->
         <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-          <span class="sr-only">Navigáció</span>
+          <span class="sr-only">Menü ki/bezár</span>
           <span class="fas fa-bars"></span>
-        </a>       
+        </a>
       </nav>
     </header>
-  
-    <!-- =============================================== -->
-  
-    <!-- Left side column. contains the sidebar -->
+    <!-- Left side column. contains the logo and sidebar -->
     <aside class="main-sidebar">
+
       <!-- sidebar: style can be found in sidebar.less -->
-      <section class="sidebar">        
-        <!-- sidebar menu: : style can be found in sidebar.less -->
+      <section class="sidebar">
+
+        <!-- search form (Optional) -->
+        <form action="#" method="get" class="sidebar-form">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control" placeholder="Keresés...">
+            <span class="input-group-btn">
+              <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                <i class="fa fa-search"></i>
+              </button>
+            </span>
+          </div>
+        </form>
+        <!-- /.search form -->
+
+        <!-- Sidebar Menu -->
         <ul class="sidebar-menu" data-widget="tree">
-          <li class="header">Navigáció</li>
+          <li class="header">NAVIGÁCIÓ</li>
+          <!-- Optionally, you can add icons to the links -->
           <li>
             <a href="login.html">
-              <i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;<span>Bejelentkezés</span>
+              <i class="fas fa-sign-in-alt"></i>
+              <span>&nbsp;&nbsp;Bejelentkezés</span>
             </a>
           </li>
           <li class="active">
-            <a href="customer.html">
-              <i class="fas fa-users"></i>&nbsp;&nbsp;<span>Vásárlók</span>
+            <a href="#">
+              <i class="fas fa-users"></i>
+              <span>&nbsp;&nbsp;Vásárlók</span>
             </a>
           </li>
           <li>
             <a href="product.html">
-                <i class="fas fa-basketball-ball"></i>&nbsp;&nbsp;<span>Termékek</span>
+              <i class="fas fa-basketball-ball"></i>
+              <span>&nbsp;&nbsp;Termékek</span>
             </a>
           </li>
           <li>
             <a href="order.html">
-              <i class="fas fa-truck"></i>&nbsp;&nbsp;<span>Megrendelések</span>
-              <span class="pull-right-container">
-              <span class="label label-primary pull-right">6 új</span>
-              </span>
+              <i class="fas fa-truck"></i>
+              <span>&nbsp;&nbsp;Megrendelések</span>
             </a>
           </li>
+        </ul>
+        <!-- /.sidebar-menu -->
       </section>
       <!-- /.sidebar -->
     </aside>
-  
-    <!-- =============================================== -->
-  
+
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-        <section class="content-header">
-            <h1>
-              Vásárlók adatai              
-            </h1>            
-          </section>
-      <!-- Main content -->
-      <section class="content">
-        
-        <div class="box">
-          
-          <div class="box-body no-padding">
-            <table class="table table-striped">
-              <tr>
-                <th>ID</th>
-                <th>Név</th>
-                <th>Irányítószám</th>
-                <th>Város</th>
-                <th>Utca</th>
-                <th>E-mail cím</th>
-                <th>Hírlevél</th>
-              </tr>
-              <tr>
-                <td>12-345</td>
-                <td>C. Ronaldo</td>
-                <td>1085</td>
-                <td>Budapest</td>
-                <td>Keszeg utca 33.</td>
-                <td>cr7@gmail.com</td>
-                <td>Nem</td>
-              </tr>
+            <section class="content-header">
+                <h1>
+                  Vásárlók adatai              
+                </h1>            
+              </section>
+          <!-- Main content -->
+          <section class="content">
+            
+            <div class="box">
               
-                <tr>
-                  <td>11-445 </td>
-                  <td>Neymar</td>
-                  <td>2012</td>
-                  <td>Esztergom</td>
-                  <td>Molnár utca 11.</td>
-                  <td>n11@gmail.com</td>
-                  <td>Igen</td>
-                </tr>
-                <tr>
-                  <td>21-999</td>
-                  <td>Dzsuzsi</td>
-                  <td>3022</td>
-                  <td>Kőszeg</td>
-                  <td>Hármas út 4.</td>
-                  <td>hetes@gmail.com</td>
-                  <td>Igen</td>
-                </tr>
-                <tr>
-                  <td>45-333</td>
-                  <td>Michael Schumacher</td>
-                  <td>4012</td>
-                  <td>Siófok</td>
-                  <td>Garay utca 10.</td>
-                  <td>schumi@gmail.com</td>
-                  <td>Nem</td>
-                </tr>
-                <tr>
-                  <td>22-222</td>
-                  <td>M. Phelps</td>
-                  <td>3222</td>
-                  <td>Orosháza</td>
-                  <td>Laptop utca 22.</td>
-                  <td>halacska@gmail.com</td>
-                  <td>Igen</td>
-                </tr>
-                <tr>
-                  <td>78-554</td>
-                  <td>Hosszú Katinka</td>
-                  <td>5012</td>
-                  <td>Szentendre</td>
-                  <td>Sík utca 11.</td>
-                  <td>tusup@gmail.com</td>
-                  <td>Nem</td>
-                </tr>
-                <tr>
-                  <td>33-444</td>
-                  <td>Böde Dániel</td>
-                  <td>4100</td>
-                  <td>Tata</td>
-                  <td>Fa utca 22.</td>
-                  <td>madocsa@gmail.com</td>
-                  <td>Igen</td>
-                </tr>
-                <tr>
-                  <td>22-456</td>
-                  <td>J. Trulli</td>
-                  <td>2000</td>
-                  <td>Sárosd</td>
-                  <td>Erdő út 33.</td>
-                  <td>f1@gmail.com</td>
-                  <td>Nem</td>
-                </tr>
-                <tr>
-                  <td>21-333</td>
-                  <td>T. Woods</td>
-                  <td>1444</td>
-                  <td>Budakeszi</td>
-                  <td>Hold utca 22.</td>
-                  <td>golf@gmail.com</td>
-                  <td>Igen</td>
-                </tr>
-                <tr>
-                  <td>12-333</td>
-                  <td>G. Buffon</td>
-                  <td>6500</td>
-                  <td>Molnárháza</td>
-                  <td>Lakás utca 22.</td>
-                  <td>kapus@gmail.com</td>
-                  <td>Nem</td>
-                </tr>
-                <tr>
-                  <td>55-343</td>
-                  <td>M. Hakkinen</td>
-                  <td>6400</td>
-                  <td>Álmosd</td>
-                  <td>Autó utca 44.</td>
-                  <td>F2@gmail.com</td>
-                  <td>Nem</td>
-                </tr>
-                <tr>
-                  <td>77-565</td>
-                  <td>A. Agassi</td>
-                  <td>3222</td>
-                  <td>Rókafalva</td>
-                  <td>Eredeti utca 22.</td>
-                  <td>tenisz@gmail.com</td>
-                  <td>Nem</td>
-                </tr>
-                 
-                
-               
-            </table>
-          </div>
-          <!-- /.box-body -->
+              <div class="box-body no-padding">
+                <table class="table table-striped">
+                  <tr>
+                    <th>ID</th>
+                    <th>Név</th>
+                    <th>Irányítószám</th>
+                    <th>Város</th>
+                    <th>Utca</th>
+                    <th>E-mail cím</th>
+                    <th>Hírlevél</th>
+                  </tr>
+                  <tr>
+                    <td>12-345</td>
+                    <td>C. Ronaldo</td>
+                    <td>1085</td>
+                    <td>Budapest</td>
+                    <td>Keszeg utca 33.</td>
+                    <td>cr7@gmail.com</td>
+                    <td>Nem</td>
+                  </tr>
+                  
+                    <tr>
+                      <td>11-445 </td>
+                      <td>Neymar</td>
+                      <td>2012</td>
+                      <td>Esztergom</td>
+                      <td>Molnár utca 11.</td>
+                      <td>n11@gmail.com</td>
+                      <td>Igen</td>
+                    </tr>
+                    <tr>
+                      <td>21-999</td>
+                      <td>Dzsuzsi</td>
+                      <td>3022</td>
+                      <td>Kőszeg</td>
+                      <td>Hármas út 4.</td>
+                      <td>hetes@gmail.com</td>
+                      <td>Igen</td>
+                    </tr>
+                    <tr>
+                      <td>45-333</td>
+                      <td>Michael Schumacher</td>
+                      <td>4012</td>
+                      <td>Siófok</td>
+                      <td>Garay utca 10.</td>
+                      <td>schumi@gmail.com</td>
+                      <td>Nem</td>
+                    </tr>
+                    <tr>
+                      <td>22-222</td>
+                      <td>M. Phelps</td>
+                      <td>3222</td>
+                      <td>Orosháza</td>
+                      <td>Laptop utca 22.</td>
+                      <td>halacska@gmail.com</td>
+                      <td>Igen</td>
+                    </tr>
+                    <tr>
+                      <td>78-554</td>
+                      <td>Hosszú Katinka</td>
+                      <td>5012</td>
+                      <td>Szentendre</td>
+                      <td>Sík utca 11.</td>
+                      <td>tusup@gmail.com</td>
+                      <td>Nem</td>
+                    </tr>
+                    <tr>
+                      <td>33-444</td>
+                      <td>Böde Dániel</td>
+                      <td>4100</td>
+                      <td>Tata</td>
+                      <td>Fa utca 22.</td>
+                      <td>madocsa@gmail.com</td>
+                      <td>Igen</td>
+                    </tr>
+                    <tr>
+                      <td>22-456</td>
+                      <td>J. Trulli</td>
+                      <td>2000</td>
+                      <td>Sárosd</td>
+                      <td>Erdő út 33.</td>
+                      <td>f1@gmail.com</td>
+                      <td>Nem</td>
+                    </tr>
+                    <tr>
+                      <td>21-333</td>
+                      <td>T. Woods</td>
+                      <td>1444</td>
+                      <td>Budakeszi</td>
+                      <td>Hold utca 22.</td>
+                      <td>golf@gmail.com</td>
+                      <td>Igen</td>
+                    </tr>
+                    <tr>
+                      <td>12-333</td>
+                      <td>G. Buffon</td>
+                      <td>6500</td>
+                      <td>Molnárháza</td>
+                      <td>Lakás utca 22.</td>
+                      <td>kapus@gmail.com</td>
+                      <td>Nem</td>
+                    </tr>
+                    <tr>
+                      <td>55-343</td>
+                      <td>M. Hakkinen</td>
+                      <td>6400</td>
+                      <td>Álmosd</td>
+                      <td>Autó utca 44.</td>
+                      <td>F2@gmail.com</td>
+                      <td>Nem</td>
+                    </tr>
+                    <tr>
+                      <td>77-565</td>
+                      <td>A. Agassi</td>
+                      <td>3222</td>
+                      <td>Rókafalva</td>
+                      <td>Eredeti utca 22.</td>
+                      <td>tenisz@gmail.com</td>
+                      <td>Nem</td>
+                    </tr>
+                     
+                    
+                   
+                </table>
+              </div>
+              <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+            </section>
+          <!-- /.content -->
         </div>
-        <!-- /.box -->
-        </section>
       <!-- /.content -->
-    </div>
+    
     <!-- /.content-wrapper -->
-  
+
+    <!-- Main Footer -->
     <footer class="main-footer">
-      <strong>&copy; 2018 <a href="#">Teaming360</a>.</strong> Minden jog fenntartva!
+      <!-- Default to the left -->
+      <strong>Copyright &copy; 2018
+        <a class="green-text" href="#"><b>Teaming</b>360</a>.</strong> Minden jog fenntartva!.
     </footer>
-  
+    
+  </div>
+  <!-- ./wrapper -->
+
+  <!-- REQUIRED JS SCRIPTS -->
+
   <!-- jQuery 3 -->
-  <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <!-- Bootstrap 3.3.7 -->
-  <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <!-- SlimScroll -->
-  <script src="../../bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-  <!-- FastClick -->
-  <script src="../../bower_components/fastclick/lib/fastclick.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <!-- AdminLTE App -->
-  <script src="../../dist/js/adminlte.min.js"></script>
-  <!-- AdminLTE for demo purposes -->
-  <script src="../../dist/js/demo.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('.sidebar-menu').tree()
-    })
-  </script>
+  <script src="js/adminlte.js"></script>
 </body>
+
 </html>
