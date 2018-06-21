@@ -14,12 +14,9 @@
   <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
-<<<<<<< HEAD
   <!-- iCheck -->
   <link rel="stylesheet" href="plugins/iCheck/square/blue.css">
 
-=======
->>>>>>> dbae0f522cf68d1c4f5a2fc8ba904ec504c33ee8
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
@@ -31,9 +28,9 @@
       <!-- Logo -->
       <a href="../../index2.html" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>A</b>LT</span>
+        <span class="logo-mini"><b>T</b>360</span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>Admin</b>LTE</span>
+        <span class="logo-lg"><b>Teaming</b>360</span>
       </a>
       <!-- Header Navbar: style can be found in header.less -->
       <nav class="navbar navbar-static-top">
@@ -61,27 +58,28 @@
         <!-- /.search form -->
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu" data-widget="tree">
-          <li class="header">MAIN NAVIGATION</li>
-          <li class="treeview">
-            <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Login</span>
+          <li class="header">Főmenü</li>
+          <li>
+            <a href="login.html">
+              <i class="fa fa-dashboard"></i> <span>Bejelentkezés</span>
             </a>
           </li>
-          <li class="treeview">
-            <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Custumer</span>
+          <li>
+            <a href="customer.html">
+              <i class="fa fa-dashboard"></i> <span>Ügyfél</span>
             </a>
           </li>
-          <li class="treeview">
-            <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Product</span>
+          <li>
+            <a href="product.html">
+              <i class="fa fa-dashboard"></i> <span>Termék</span>
             </a>
           </li>
-          <li class="treeview">
-            <a href="#">
-              <i class="fa fa-dashboard"></i> <span>Order</span>
+          <li>
+            <a href="order.html">
+              <i class="fa fa-dashboard"></i> <span>Rendelés</span>
             </a>
           </li>
+        </ul>
       </section>
       <!-- /.sidebar -->
     </aside>
@@ -91,7 +89,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Admin</b>LTE</a>
+    <a href="login.html"><b>Teaming</b>360</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
@@ -136,11 +134,26 @@
   
 </div>
 
+<footer class="main-footer">
+  <strong>Copyright &copy; 2018 <a href="https://adminlte.io"><b>Teaming</b>360</a>.</strong> Minden jog fenntartva!
+</footer>
+
 <!-- jQuery 3 -->
 <!-- Bootstrap 3.3.7 -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
+<script src="../../bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+  <!-- FastClick -->
+  <script src="../../bower_components/fastclick/lib/fastclick.js"></script>
+  <!-- AdminLTE App -->
+  <script src="../../dist/js/adminlte.min.js"></script>
+  <!-- AdminLTE for demo purposes -->
+  <script src="../../dist/js/demo.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidebar-menu').tree()
+    })
+  </script>
 </body>
 </html>
