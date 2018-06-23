@@ -10,7 +10,8 @@
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   <!-- Ionicons -->
   <link rel="stylesheet" href="css/ionicons.min.css">
   <!-- Theme style -->
@@ -56,234 +57,237 @@
           <span class="sr-only">Menü ki/bezár</span>
           <span class="fas fa-bars"></span>
         </a>
-                  <!-- itt kezdődik a menü jobb felső része-->
-                  <div class="navbar-custom-menu">
-                    <ul class="nav navbar-nav">
-                      <!-- Messages: style can be found in dropdown.less-->
-                      <li class="dropdown messages-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                          <i class="fas fa-envelope"></i>
-                          <span class="label label-primary">5</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li class="header">5 új bejövő üzenet</li>
-                          <li>
-                            <!-- inner menu: contains the actual data -->
-                            <ul class="menu">
-                              <li><!-- start message -->
-                                <a href="#">
-                                  <div class="pull-left">
-                                    <img src="dist/img/mv.jpg" class="img-circle" alt="User Image">
-                                  </div>
-                                  <h4>
-                                    Madarász Viktória
-                                    <small><i class="far fa-clock"></i> 5 mins</small>
-                                  </h4>
-                                  <p>Enyém volt a Termékek szekció</p>
-                                </a>
-                              </li>
-                              <!-- end message -->
-                              <li>
-                                <a href="#">
-                                  <div class="pull-left">
-                                    <img src="dist/img/mcs.jpg" class="img-circle" alt="User Image">
-                                  </div>
-                                  <h4>
-                                    Milhoffer Csaba
-                                    <small><i class="far fa-clock"></i> 2 hours</small>
-                                  </h4>
-                                  <p>Én feleltem a Megrendelések menüpontért</p>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                  <div class="pull-left">
-                                    <img src="dist/img/kk.jpg" class="img-circle" alt="User Image">
-                                  </div>
-                                  <h4>
-                                    Krekács Károly
-                                    <small><i class="far fa-clock"></i> Today</small>
-                                  </h4>
-                                  <p>Többek közt a Login-t dobtam össze</p>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                  <div class="pull-left">
-                                    <img src="dist/img/vz.jpg" class="img-circle" alt="User Image">
-                                  </div>
-                                  <h4>
-                                    Vasady Zoltán
-                                    <small><i class="far fa-clock"></i> Yesterday</small>
-                                  </h4>
-                                  <p>A Vásárlók jutottak nekem</p>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                  <div class="pull-left">
-                                    <img src="dist/img/hm.jpg" class="img-circle" alt="User Image">
-                                  </div>
-                                  <h4>
-                                    Hajdú Mózes
-                                    <small><i class="far fa-clock"></i> 2 days</small>
-                                  </h4>
-                                  <p>Én voltam a sitebuilder</p>
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li class="footer"><a href="#">Mégse</a></li>
-                        </ul>
-                      </li>
-                      <!-- Notifications: style can be found in dropdown.less -->
-                      <li class="dropdown notifications-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                          <i class="fas fa-bell"></i>
-                          <span class="label label-warning">3</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li class="header">3 új esemény</li>
-                          <li>
-                            <!-- inner menu: contains the actual data -->
-                            <ul class="menu">
-                              <li>
-                                <a href="#">
-                                  <i class="fas fa-check text-green"></i> 1 elkészült munka
-                                </a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                  <i class="fas fa-times text-red"></i> 4 átvirrasztott éjszaka
-                                </a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                  <i class="far fa-comment text-yellow"></i> 1 emlegetett anyuka
-                                </a>
-                            </ul>
-                            <li class="footer"><a href="#">Mégse</a></li>
-                        </ul>
-                      </li>
-                      <!-- Tasks: style can be found in dropdown.less -->
-                      <li class="dropdown tasks-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                          <i class="fab fa-font-awesome-flag"></i>
-                          <span class="label label-danger">4</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li class="header">Feladatok fontosságának megoszlása</li>
-                          <li>
-                            <!-- inner menu: contains the actual data -->
-                            <ul class="menu">
-                              <li><!-- Task item -->
-                                <a href="#">
-                                  <h3>
-                                    100%-ot adni a teljes csapatnak
-                                    <small class="pull-right">95%</small>
-                                  </h3>
-                                  <div class="progress xs">
-                                    <div class="progress-bar progress-bar-aqua" style="width: 95%" role="progressbar"
-                                         aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                      <span class="sr-only">95% Complete</span>
-                                    </div>
-                                  </div>
-                                </a>
-                              </li>
-                              <!-- end task item -->
-                              <li><!-- Task item -->
-                                <a href="#">
-                                  <h3>
-                                    Meginni a reggeli joghurtokat
-                                    <small class="pull-right">3%</small>
-                                  </h3>
-                                  <div class="progress xs">
-                                    <div class="progress-bar progress-bar-green" style="width: 4%" role="progressbar"
-                                         aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                      <span class="sr-only">4% Complete</span>
-                                    </div>
-                                  </div>
-                                </a>
-                              </li>
-                              <!-- end task item -->
-                              <li><!-- Task item -->
-                                <a href="#">
-                                  <h3>
-                                    Bedobni egy kávét
-                                    <small class="pull-right">1%</small>
-                                  </h3>
-                                  <div class="progress xs">
-                                    <div class="progress-bar progress-bar-red" style="width: 1%" role="progressbar"
-                                         aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                      <span class="sr-only">1% Complete</span>
-                                    </div>
-                                  </div>
-                                </a>
-                              </li>
-                              <!-- end task item -->
-                              <li><!-- Task item -->
-                                <a href="#">
-                                  <h3>
-                                    Jégkrémezni a melegben
-                                    <small class="pull-right">1%</small>
-                                  </h3>
-                                  <div class="progress xs">
-                                    <div class="progress-bar progress-bar-yellow" style="width: 1%" role="progressbar"
-                                         aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                      <span class="sr-only">1% Complete</span>
-                                    </div>
-                                  </div>
-                                </a>
-                              </li>
-                              <!-- end task item -->
-                            </ul>
-                          </li>
-                          <li class="footer">
-                            <a href="#">Mégse</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <!-- User Account: style can be found in dropdown.less -->
-                      <li class="dropdown user user-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                          <img src="dist/img/csj.jpg" class="user-image" alt="User Image">
-                          <span class="hidden-xs">Cserkó József</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <!-- User image -->
-                          <li class="user-header">
-                            <img src="dist/img/csj.jpg" class="img-circle" alt="User Image">
-            
-                            <p>
-                              Cserkó József - Rabszolgahajcsár
-                              <small>Adminisztrátor 2018. június 4. óta</small>
-                            </p>
-                          </li>
-                          <!-- Menu Body -->
-                          <li class="user-body">
-                            <div class="row">
-                              <div class="col-xs-4 text-center">
-                                <a href="#">Követők[]</a>
-                              </div>
-                              <div class="col-xs-4 text-center">
-                                <a href="#">?</a>
-                              </div>
-                              <div class="col-xs-4 text-center">
-                                <a href="#">Barátok[]</a>
-                              </div>
+        <!-- itt kezdődik a menü jobb felső része-->
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <!-- Messages: style can be found in dropdown.less-->
+            <li class="dropdown messages-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fas fa-envelope"></i>
+                <span class="label label-success">5</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">5 új bejövő üzenet</li>
+                <li>
+                  <!-- inner menu: contains the actual data -->
+                  <ul class="menu">
+                    <li>
+                      <!-- start message -->
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="img/mv.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Madarász Viktória
+                          <small>
+                            <i class="far fa-clock"></i> 5 mins</small>
+                        </h4>
+                        <p>Enyém volt a Termékek szekció</p>
+                      </a>
+                    </li>
+                    <!-- end message -->
+                    <li>
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="img/mcs.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Milhoffer Csaba
+                          <small>
+                            <i class="far fa-clock"></i> 2 hours</small>
+                        </h4>
+                        <p>Én feleltem a Megrendelések menüpontért</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="img/kk.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Krekács Károly
+                          <small>
+                            <i class="far fa-clock"></i> Today</small>
+                        </h4>
+                        <p>Többek közt a Login-t dobtam össze</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="img/vz.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Vasady Zoltán
+                          <small>
+                            <i class="far fa-clock"></i> Yesterday</small>
+                        </h4>
+                        <p>A Vásárlók jutottak nekem</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="pull-left">
+                          <img src="img/hm.jpg" class="img-circle" alt="User Image">
+                        </div>
+                        <h4>
+                          Hajdú Mózes
+                          <small>
+                            <i class="far fa-clock"></i> 2 days</small>
+                        </h4>
+                        <p>Én voltam a sitebuilder</p>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="footer">
+                  <a href="#">Mégse</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Notifications: style can be found in dropdown.less -->
+            <li class="dropdown notifications-menu">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fas fa-bell"></i>
+                <span class="label label-warning">3</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="header">3 új esemény</li>
+                <li>
+                  <!-- inner menu: contains the actual data -->
+                  <ul class="menu">
+                    <li>
+                      <a href="#">
+                        <i class="fas fa-check text-green"></i> 1 elkészült munka
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fas fa-times text-red"></i> 4 átvirrasztott éjszaka
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="far fa-comment text-yellow"></i> 1 emlegetett anyuka
+                      </a>
+                  </ul>
+                  <li class="footer">
+                    <a href="#">Mégse</a>
+                  </li>
+              </ul>
+              </li>
+              <!-- Tasks: style can be found in dropdown.less -->
+              <li class="dropdown tasks-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fab fa-font-awesome-flag"></i>
+                  <span class="label label-danger">4</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">Feladatok fontosságának megoszlása</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                      <li>
+                        <!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            100%-ot adni a teljes csapatnak
+                            <small class="pull-right">95%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-aqua" style="width: 95%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">95% Complete</span>
                             </div>
-                            <!-- /.row -->
-                          </li>
-                          <!-- Menu Footer-->
-                          <li class="user-footer">
-                            <div class="pull-left">
-                              <a href="login.html" class="btn btn-default btn-flat">Kijelentkezés</a>
-                            </div>
-                          </li>
-                        </ul>
+                          </div>
+                        </a>
                       </li>
+                      <!-- end task item -->
+                      <li>
+                        <!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Meginni a reggeli joghurtokat
+                            <small class="pull-right">3%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-green" style="width: 4%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">4% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- end task item -->
+                      <li>
+                        <!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Bedobni egy kávét
+                            <small class="pull-right">1%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-red" style="width: 1%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">1% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- end task item -->
+                      <li>
+                        <!-- Task item -->
+                        <a href="#">
+                          <h3>
+                            Jégkrémezni a melegben
+                            <small class="pull-right">1%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-yellow" style="width: 1%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">1% Complete</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <!-- end task item -->
                     </ul>
-                  </div>
+                  </li>
+                  <li class="footer">
+                    <a href="#">Mégse</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- User Account: style can be found in dropdown.less -->
+              <li class="dropdown user user-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <img src="img/csj.jpg" class="user-image" alt="User Image">
+                  <span class="hidden-xs">Cserkó József</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- User image -->
+                  <li class="user-header">
+                    <img src="img/csj.jpg" class="img-circle" alt="User Image">
+
+                    <p>
+                      Cserkó József - Rabszolgahajcsár
+                      <small>Adminisztrátor 2018. június 4. óta</small>
+                    </p>
+                  </li>
+                  <!-- Menu Body -->
+                  <li class="user-body">
+                    <div class="row">
+                      <div class="col-xs-4 text-center">
+                      </div>
+                    </div>
+                    <!-- /.row -->
+                  </li>
+                  <!-- Menu Footer-->
+                  <li class="user-footer">
+                    <div class="pull-left">
+                      <a href="login.html" class="btn btn-default btn-flat">Kijelentkezés</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <!-- Left side column. contains the logo and sidebar -->
@@ -312,14 +316,14 @@
           <li>
             <a href="welcome.html">
               <i class="fas fa-tachometer-alt"></i>
-              <span>&nbsp;&nbsp;Irányítópult</span>                  
+              <span>&nbsp;&nbsp;Irányítópult</span>
             </a>
           </li>
           <li>
             <a href="customer.html">
               <i class="fas fa-users"></i>
               <span>&nbsp;&nbsp;Vásárlók</span>
-              <span class="pull-right-container">                
+              <span class="pull-right-container">
                 <small class="label pull-right bg-blue">3 új</small>
               </span>
             </a>
@@ -329,7 +333,7 @@
               <i class="fas fa-basketball-ball"></i>
               <span>&nbsp;&nbsp;Termékek</span>
               <span class="pull-right-container">
-                <small class="label pull-right bg-red">2 kifutó</small>                
+                <small class="label pull-right bg-red">2 kifutó</small>
               </span>
             </a>
           </li>
@@ -355,292 +359,293 @@
     </aside>
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <!-- Main content -->
-            <section class="content">
-                <p style="font-size: 25px;">Terméklista</p>
-              <!-- Default box -->
-                  <!-- /.box-header -->
-                  <div class="box-body table-responsive no-padding">
-                    <table class="table table-striped"> 
-                      <tr style="background-color: #474646; color: #ffffff; font-weight: bold">
-                          <th style="font-size: 15px">
-                              <span class="fas fa-basketball-ball"></span>
-                              <b>Termék ID</b>
-                        <th>Kategória</th>
-                        <th>Kategória ID</th>
-                        <th>Márka</th>
-                        <th>Terméknév</th>
-                        <th>Státusz</th>
-                        <th>Beszerzési ár (nettó Ft)</th>
-                        <th>Vásárlói ár (Ft)</th>
-                      </tr>
-                        <tr style="background-color: #dd4b39; color: #070707; font-weight: normal">
-                          <td>10001</td>
-                          <td>Labdák</td>
-                          <td>TM0001</td>
-                          <td>Maniac</td>
-                          <td>Futball labda</td>
-                          <td>Kifutó</td>
-                          <td>985</td>
-                          <td>1490</td>
-                        </tr>
-                        <tr>
-                          <td>10002</td>
-                          <td>Labdák</td>
-                          <td>TM0001</td>
-                          <td>VolleyStar</td>
-                          <td>Röplabda, Bézs</td>
-                          <td>Raktáron</td>
-                          <td>895</td>
-                          <td>1390</td>
-                        </tr>
-                        <tr>
-                          <td>10003</td>
-                          <td>Labdák</td>
-                          <td>TM0001</td>
-                          <td>Robust</td>
-                          <td>Klasszikus kosárlabda</td>
-                          <td>Raktáron</td>
-                          <td>748</td>
-                          <td>1190</td>
-                        </tr>
-                        <tr>
-                          <td>10004</td>
-                          <td>Labdák</td>
-                          <td>TM0001</td>
-                          <td>Robust</td>
-                          <td>Kézilabda, Kék</td>
-                          <td>Beszállítói készleten</td>
-                          <td>543</td>
-                          <td>890</td>
-                        </tr>
-                        <tr>
-                          <td>10005</td>
-                          <td>Labdák</td>
-                          <td>TM0001</td>
-                          <td>Tunturi</td>
-                          <td>Vízliabda, Sárga</td>
-                          <td>Raktáron</td>
-                          <td>748</td>
-                          <td>1190</td>
-                        </tr>
-                        <tr>
-                          <td>10006</td>
-                          <td>Ruházat</td>
-                          <td>TM0002</td>
-                          <td>Nike</td>
-                          <td>Ujjatlan kesztyű, Fekete</td>
-                          <td>Beszállítói készleten</td>
-                          <td>1489</td>
-                          <td>2290</td>
-                        </tr>
-                        <tr style="background-color: #dd4b39; color: #070707; font-weight: normal">
-                          <td>10007</td>
-                          <td>Ruházat</td>
-                          <td>TM0002</td>
-                          <td>Adidas</td>
-                          <td>Futball mez, Real Madrid</td>
-                          <td>Kifutó</td>
-                          <td>12898</td>
-                          <td>19990</td>
-                        </tr>
-                        <tr>
-                          <td>10008</td>
-                          <td>Ruházat</td>
-                          <td>TM0002</td>
-                          <td>Arena</td>
-                          <td>Úszódressz, Zöld</td>
-                          <td>Beszállítói készleten</td>
-                          <td>4987</td>
-                          <td>7590</td>
-                        </tr>
-                        <tr>
-                          <td>10009</td>
-                          <td>Ruházat</td>
-                          <td>TM0002</td>
-                          <td>Puma</td>
-                          <td>Stoplis cipő, Lila</td>
-                          <td>Raktáron</td>
-                          <td>18729</td>
-                          <td>28990</td>
-                        </tr>
-                        <tr>
-                          <td>10010</td>
-                          <td>Ruházat</td>
-                          <td>TM0002</td>
-                          <td>Nike</td>
-                          <td>Short</td>
-                          <td>Raktáron</td>
-                          <td>5479</td>
-                          <td>8490</td>
-                        </tr>
-                        <tr>
-                          <td>10011</td>
-                          <td>Bírói kellékek</td>
-                          <td>TM0003</td>
-                          <td>Robust</td>
-                          <td>Síp</td>
-                          <td>Raktáron</td>
-                          <td>185</td>
-                          <td>290</td>
-                        </tr>
-                        <tr>
-                          <td>10012</td>
-                          <td>Bírói kellékek</td>
-                          <td>TM0003</td>
-                          <td>ProJudge</td>
-                          <td>Kártyakészlet</td>
-                          <td>Raktáron</td>
-                          <td>1025</td>
-                          <td>1590</td>
-                        </tr>
-                        <tr>
-                          <td>10013</td>
-                          <td>Bírói kellékek</td>
-                          <td>TM0003</td>
-                          <td>ProJudge</td>
-                          <td>Bírói mez, Fekete</td>
-                          <td>Beszállítói készleten</td>
-                          <td>7568</td>
-                          <td>11990</td>
-                        </tr>
-                        <tr>
-                          <td>10014</td>
-                          <td>Bírói kellékek</td>
-                          <td>TM0003</td>
-                          <td>ProJudge</td>
-                          <td>Sárga lap készlet</td>
-                          <td>Raktáron</td>
-                          <td>748</td>
-                          <td>1190</td>
-                        </tr>
-                        <tr>
-                          <td>10015</td>
-                          <td>Bírói kellékek</td>
-                          <td>TM0003</td>
-                          <td>ProJudge</td>
-                          <td>Piros lap készlet</td>
-                          <td>Raktáron</td>
-                          <td>748</td>
-                          <td>1190</td>
-                        </tr>
-                        <tr>
-                          <td>10016</td>
-                          <td>Szurkolóknak</td>
-                          <td>TM0004</td>
-                          <td>Robust</td>
-                          <td>Szurkolói flag, Barcelona</td>
-                          <td>Raktáron</td>
-                          <td>1569</td>
-                          <td>2390</td>
-                        </tr>
-                        <tr>
-                          <td>10017</td>
-                          <td>Szurkolóknak</td>
-                          <td>TM0004</td>
-                          <td>Robust</td>
-                          <td>Szurkolói flag, Real Madrid</td>
-                          <td>Raktáron</td>
-                          <td>1569</td>
-                          <td>2390</td>
-                        </tr>
-                        <tr>
-                          <td>10018</td>
-                          <td>Szurkolóknak</td>
-                          <td>TM0004</td>
-                          <td>Robust</td>
-                          <td>Szurkolói flag, Fradi</td>
-                          <td>Beszállítói készleten</td>
-                          <td>1569</td>
-                          <td>2390</td>
-                        </tr>
-                        <tr>
-                          <td>10019</td>
-                          <td>Szurkolóknak</td>
-                          <td>TM0004</td>
-                          <td>Robust</td>
-                          <td>Szurkolói flag, Újpest</td>
-                          <td>Raktáron</td>
-                          <td>1569</td>
-                          <td>2390</td>
-                        </tr>
-                        <tr>
-                          <td>10020</td>
-                          <td>Szurkolóknak</td>
-                          <td>TM0004</td>
-                          <td>Maybelinne</td>
-                          <td>Arcfesték-készlet</td>
-                          <td>Raktáron</td>
-                          <td>5769</td>
-                          <td>8790</td>
-                        </tr>
-                        <tr>
-                          <td>10021</td>
-                          <td>Kellékek labdához</td>
-                          <td>TM0005</td>
-                          <td>HandballPro</td>
-                          <td>Wax</td>
-                          <td>Raktáron</td>
-                          <td>2431</td>
-                          <td>3690</td>
-                        </tr>
-                        <tr>
-                          <td>10022</td>
-                          <td>Kellékek labdához</td>
-                          <td>TM0005</td>
-                          <td>Robust</td>
-                          <td>Klasszikus kosárlabda</td>
-                          <td>Raktáron</td>
-                          <td>748</td>
-                          <td>1190</td>
-                        </tr>
-                        <tr>
-                          <td>10023</td>
-                          <td>Kellékek labdához</td>
-                          <td>TM0005</td>
-                          <td>Avento</td>
-                          <td>Tűkészlet labdapumpához, 3 db</td>
-                          <td>Beszállítói készleten</td>
-                          <td>325</td>
-                          <td>590</td>
-                        </tr>
-                        <tr>
-                          <td>10024</td>
-                          <td>Kellékek labdához</td>
-                          <td>TM0005</td>
-                          <td>Avento</td>
-                          <td>Manuális pumpa</td>
-                          <td>Raktáron</td>
-                          <td>1598</td>
-                          <td>2490</td>
-                        </tr>
-                        <tr>
-                            <td>10025</td>
-                            <td>Kellékek labdához</td>
-                            <td>TM0005</td>
-                            <td>Spokey</td>
-                            <td>Elektromos pumpa</td>
-                            <td>Raktáron</td>
-                            <td>7891</td>
-                            <td>1199</td>
-                          </tr>
-                    </table>
-                  </div>
-                  <!-- /.box-body -->
-              
-              <!-- /.box -->
-        
-            </section>
-            <!-- /.content -->
-          </div>
+      <!-- Content Header (Page header) -->
+      <!-- Main content -->
+      <section class="content">
+        <p style="font-size: 25px;">Terméklista</p>
+        <!-- Default box -->
+        <!-- /.box-header -->
+        <div class="box-body table-responsive no-padding">
+          <table class="table table-striped">
+            <tr style="background-color: #474646; color: #ffffff; font-weight: bold">
+              <th style="font-size: 15px">
+                <span class="fas fa-basketball-ball"></span>
+                <b>Termék ID</b>
+                <th>Kategória</th>
+                <th>Kategória ID</th>
+                <th>Márka</th>
+                <th>Terméknév</th>
+                <th>Státusz</th>
+                <th>Beszerzési ár (nettó Ft)</th>
+                <th>Vásárlói ár (Ft)</th>
+            </tr>
+            <tr style="background-color: #dd4b39; color: #070707; font-weight: normal">
+              <td>10001</td>
+              <td>Labdák</td>
+              <td>TM0001</td>
+              <td>Maniac</td>
+              <td>Futball labda</td>
+              <td>Kifutó</td>
+              <td>985</td>
+              <td>1490</td>
+            </tr>
+            <tr>
+              <td>10002</td>
+              <td>Labdák</td>
+              <td>TM0001</td>
+              <td>VolleyStar</td>
+              <td>Röplabda, Bézs</td>
+              <td>Raktáron</td>
+              <td>895</td>
+              <td>1390</td>
+            </tr>
+            <tr>
+              <td>10003</td>
+              <td>Labdák</td>
+              <td>TM0001</td>
+              <td>Robust</td>
+              <td>Klasszikus kosárlabda</td>
+              <td>Raktáron</td>
+              <td>748</td>
+              <td>1190</td>
+            </tr>
+            <tr>
+              <td>10004</td>
+              <td>Labdák</td>
+              <td>TM0001</td>
+              <td>Robust</td>
+              <td>Kézilabda, Kék</td>
+              <td>Beszállítói készleten</td>
+              <td>543</td>
+              <td>890</td>
+            </tr>
+            <tr>
+              <td>10005</td>
+              <td>Labdák</td>
+              <td>TM0001</td>
+              <td>Tunturi</td>
+              <td>Vízliabda, Sárga</td>
+              <td>Raktáron</td>
+              <td>748</td>
+              <td>1190</td>
+            </tr>
+            <tr>
+              <td>10006</td>
+              <td>Ruházat</td>
+              <td>TM0002</td>
+              <td>Nike</td>
+              <td>Ujjatlan kesztyű, Fekete</td>
+              <td>Beszállítói készleten</td>
+              <td>1489</td>
+              <td>2290</td>
+            </tr>
+            <tr style="background-color: #dd4b39; color: #070707; font-weight: normal">
+              <td>10007</td>
+              <td>Ruházat</td>
+              <td>TM0002</td>
+              <td>Adidas</td>
+              <td>Futball mez, Real Madrid</td>
+              <td>Kifutó</td>
+              <td>12898</td>
+              <td>19990</td>
+            </tr>
+            <tr>
+              <td>10008</td>
+              <td>Ruházat</td>
+              <td>TM0002</td>
+              <td>Arena</td>
+              <td>Úszódressz, Zöld</td>
+              <td>Beszállítói készleten</td>
+              <td>4987</td>
+              <td>7590</td>
+            </tr>
+            <tr>
+              <td>10009</td>
+              <td>Ruházat</td>
+              <td>TM0002</td>
+              <td>Puma</td>
+              <td>Stoplis cipő, Lila</td>
+              <td>Raktáron</td>
+              <td>18729</td>
+              <td>28990</td>
+            </tr>
+            <tr>
+              <td>10010</td>
+              <td>Ruházat</td>
+              <td>TM0002</td>
+              <td>Nike</td>
+              <td>Short</td>
+              <td>Raktáron</td>
+              <td>5479</td>
+              <td>8490</td>
+            </tr>
+            <tr>
+              <td>10011</td>
+              <td>Bírói kellékek</td>
+              <td>TM0003</td>
+              <td>Robust</td>
+              <td>Síp</td>
+              <td>Raktáron</td>
+              <td>185</td>
+              <td>290</td>
+            </tr>
+            <tr>
+              <td>10012</td>
+              <td>Bírói kellékek</td>
+              <td>TM0003</td>
+              <td>ProJudge</td>
+              <td>Kártyakészlet</td>
+              <td>Raktáron</td>
+              <td>1025</td>
+              <td>1590</td>
+            </tr>
+            <tr>
+              <td>10013</td>
+              <td>Bírói kellékek</td>
+              <td>TM0003</td>
+              <td>ProJudge</td>
+              <td>Bírói mez, Fekete</td>
+              <td>Beszállítói készleten</td>
+              <td>7568</td>
+              <td>11990</td>
+            </tr>
+            <tr>
+              <td>10014</td>
+              <td>Bírói kellékek</td>
+              <td>TM0003</td>
+              <td>ProJudge</td>
+              <td>Sárga lap készlet</td>
+              <td>Raktáron</td>
+              <td>748</td>
+              <td>1190</td>
+            </tr>
+            <tr>
+              <td>10015</td>
+              <td>Bírói kellékek</td>
+              <td>TM0003</td>
+              <td>ProJudge</td>
+              <td>Piros lap készlet</td>
+              <td>Raktáron</td>
+              <td>748</td>
+              <td>1190</td>
+            </tr>
+            <tr>
+              <td>10016</td>
+              <td>Szurkolóknak</td>
+              <td>TM0004</td>
+              <td>Robust</td>
+              <td>Szurkolói flag, Barcelona</td>
+              <td>Raktáron</td>
+              <td>1569</td>
+              <td>2390</td>
+            </tr>
+            <tr>
+              <td>10017</td>
+              <td>Szurkolóknak</td>
+              <td>TM0004</td>
+              <td>Robust</td>
+              <td>Szurkolói flag, Real Madrid</td>
+              <td>Raktáron</td>
+              <td>1569</td>
+              <td>2390</td>
+            </tr>
+            <tr>
+              <td>10018</td>
+              <td>Szurkolóknak</td>
+              <td>TM0004</td>
+              <td>Robust</td>
+              <td>Szurkolói flag, Fradi</td>
+              <td>Beszállítói készleten</td>
+              <td>1569</td>
+              <td>2390</td>
+            </tr>
+            <tr>
+              <td>10019</td>
+              <td>Szurkolóknak</td>
+              <td>TM0004</td>
+              <td>Robust</td>
+              <td>Szurkolói flag, Újpest</td>
+              <td>Raktáron</td>
+              <td>1569</td>
+              <td>2390</td>
+            </tr>
+            <tr>
+              <td>10020</td>
+              <td>Szurkolóknak</td>
+              <td>TM0004</td>
+              <td>Maybelinne</td>
+              <td>Arcfesték-készlet</td>
+              <td>Raktáron</td>
+              <td>5769</td>
+              <td>8790</td>
+            </tr>
+            <tr>
+              <td>10021</td>
+              <td>Kellékek labdához</td>
+              <td>TM0005</td>
+              <td>HandballPro</td>
+              <td>Wax</td>
+              <td>Raktáron</td>
+              <td>2431</td>
+              <td>3690</td>
+            </tr>
+            <tr>
+              <td>10022</td>
+              <td>Kellékek labdához</td>
+              <td>TM0005</td>
+              <td>Robust</td>
+              <td>Klasszikus kosárlabda</td>
+              <td>Raktáron</td>
+              <td>748</td>
+              <td>1190</td>
+            </tr>
+            <tr>
+              <td>10023</td>
+              <td>Kellékek labdához</td>
+              <td>TM0005</td>
+              <td>Avento</td>
+              <td>Tűkészlet labdapumpához, 3 db</td>
+              <td>Beszállítói készleten</td>
+              <td>325</td>
+              <td>590</td>
+            </tr>
+            <tr>
+              <td>10024</td>
+              <td>Kellékek labdához</td>
+              <td>TM0005</td>
+              <td>Avento</td>
+              <td>Manuális pumpa</td>
+              <td>Raktáron</td>
+              <td>1598</td>
+              <td>2490</td>
+            </tr>
+            <tr>
+              <td>10025</td>
+              <td>Kellékek labdához</td>
+              <td>TM0005</td>
+              <td>Spokey</td>
+              <td>Elektromos pumpa</td>
+              <td>Raktáron</td>
+              <td>7891</td>
+              <td>1199</td>
+            </tr>
+          </table>
+        </div>
+        <!-- /.box-body -->
+
+        <!-- /.box -->
+
+      </section>
+      <!-- /.content -->
+    </div>
     <!-- /.content-wrapper -->
 
     <!-- Main Footer -->
     <footer class="main-footer">
       <!-- Default to the left -->
       <strong>Copyright &copy; 2018
-        <a class="green-text" href="#"><b>Teaming</b>360</a>.</strong> Minden jog fenntartva!
+        <a class="green-text" href="#">
+          <b>Teaming</b>360</a>.</strong> Minden jog fenntartva!
     </footer>
   </div>
   <!-- ./wrapper -->
