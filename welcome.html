@@ -767,23 +767,27 @@
 
   <!-- jQuery 3 -->
   <script src="js/jquery.min.js"></script>
+  
+  
+<!-- ez felel a Feladatoknál a scroll-ért -->
+  <!-- jQuery UI 1.11.4 -->
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge('uibutton', $.ui.button);
+    </script>
+  <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="dist/js/pages/dashboard.js"></script>
+<!-- ez a vége a scroll-nak-->
+
   <!-- Bootstrap 3.3.7 -->
   <script src="js/bootstrap.min.js"></script>
-  
-  <!-- ez felel a Feladatoknál a scroll-ért -->
-  <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-  
-  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-  <script>
-    $.widget.bridge('uibutton', $.ui.button);
-  </script>
-<!-- Scroll vége-->
-
   <!-- AdminLTE App -->
   <script src="js/adminlte.js"></script>
   <!-- Pie charts -->
   <script src="js/jquery.knob.min.js"></script>
   <!-- Required for Pie charts -->
+
   <script>
     $(function () {
       /* jQueryKnob */
