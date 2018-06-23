@@ -820,6 +820,16 @@
   <script src="js/jquery.min.js"></script>
   <!-- Bootstrap 3.3.7 -->
   <script src="js/bootstrap.min.js"></script>
+  
+  <!-- ez felel a Feladatoknál a scroll-ért -->
+  <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+  
+  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+  <script>
+    $.widget.bridge('uibutton', $.ui.button);
+  </script>
+<!-- Scroll vége-->
+
   <!-- AdminLTE App -->
   <script src="js/adminlte.js"></script>
   <script src="js/dashboard.js"></script>
