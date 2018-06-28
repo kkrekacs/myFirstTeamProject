@@ -15,12 +15,21 @@
     |___ Section 7
     |___ Section 8
 
-    03 - Footer (Copyright, social icons)
+    03 - Footer
+    |___ Copyright
+    |___ Social icons
 
-    04 - Shared elements (Fonts, buttons, input fields, etc.)
+    04 - Shared elements
+    |___ Fonts
+    |___ Buttons
+    |___ Input fields
 */
 
 /* 01 - Header */
+
+header {
+
+}
 
 .navbar {
     color: #fff;
@@ -34,11 +43,50 @@
 
 /* 02 - Main */
 
+.section1 {
+
+}
+
+.section2 {
+
+}
+
+.section3 {
+
+}
+
+.section4 {
+
+}
+
+.section5 {
+
+}
+
+.section6 {
+
+}
+
+.section6 {
+
+}
+
+.section7 {
+
+}
+
+.section8 {
+
+}
 
 
 /* End of 02 - Main */
 
 /* 03 - Footer */
+
+footer {
+
+}
 
 .copyright {
 
@@ -52,11 +100,6 @@
 
 /* 04 - Shared elements */
 
-body {
-    margin: 0;
-    font-family: 'Nunito', sans-serif;
-}
-
 @font-face {
     font-family: 'Josefin Sans', sans-serif;
     src: url(/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
@@ -65,6 +108,11 @@ body {
 @font-face {
     font-family: 'Nunito', sans-serif;
     src: url(/fonts/Nunito/Nunito-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-green {
-    
+
 }
 
 .one-third {
@@ -93,6 +141,20 @@ h1, h2, h3, h4, h5, h6 {
     width: calc(100% - 20px);
     margin: 10px;
     float: left;
+}
+
+@media (min-width: 768px) {
+    .one-fifty {
+        width: calc(50% - 20px);
+    }
+
+    .one-third {
+
+    }
+
+    .two-third {
+        
+    }
 }
 
 /* End of 04 - Shared elements */
