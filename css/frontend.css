@@ -52,6 +52,7 @@ header h1 {
 
 .navbar {
     width: 100%;
+    font-family: 'Nunito', sans-serif;
 }
 
 .navbar a {
@@ -82,7 +83,7 @@ header h1 {
 }
 
 .section2 {
-    background: #D7E2DE;
+    background: #44af68;
     color: #fff;
     padding: 0 200px;
     margin: 0 auto;
@@ -97,18 +98,23 @@ header h1 {
 }
 
 .section4 {
-    background: #E4FDE1;
+    background: #44af68;
+    color: #fff;
     padding: 0 200px;
     margin: 0 auto;
     height: 270px;
+    font-style: italic;
+    text-align: center;
     
 }
 
 .section5 {
-    background: #fff;
+    background: #44af68;
     padding: 0 200px;
-    margin: 0 auto;
-    height: 330px;
+    margin: -10px auto 0 auto;
+    height: 330px;    
+    text-align: center;
+    color: #fff;
 }
 
 .section6 {
@@ -119,10 +125,13 @@ header h1 {
 }
 
 .section7 {
-    background: #D2FFDB;
+    background: #44af68;
     padding: 0 200px;
     margin: 0 auto;
     height: 270px;
+    text-align: center;
+    color: #fff;
+
 }
 
 .section8 {
@@ -130,6 +139,7 @@ header h1 {
     padding: 0 200px;
     margin: 0 auto;
     height: 270px;
+    text-align: center;
 }
 
 
@@ -141,17 +151,25 @@ footer {
     background: #fff;
     padding: 0 200px;
     margin: 0 auto;
+    border-top: 1px solid #E8E8E8;
     height: 60px;
+    font-size: 14px;
 }
 
 .copyright {
-    
-
+    color: #333;
 }
 
 .social {
 
 }
+
+.twitter li:before {    
+    font-family: 'FontAwesome';
+    content: '\f067';
+    margin:0 5px 0 -15px;
+    color: #f00;
+    }
 
 .social a {
     color: #fff;
@@ -205,7 +223,20 @@ img {
 }
 
 .btn-green {
-    background-color: #4CAF50;
+    background-color: #008D4C;
+    border: none;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+    margin: 4px 4px;
+    font-size: 16px;
+    border-radius: 99px;
+}
+
+.btn-green-email {
+    background-color: #008D4C;
     border: none;
     color: white;
     padding: 10px 40px 10px 40px;
@@ -213,7 +244,7 @@ img {
     text-decoration: none;
     display: inline-block;    
     margin: 4px 4px;
-    font-size: 16px;
+    
     border-radius: 0 99px 99px 0;
 }
 
@@ -221,15 +252,11 @@ img {
     border: none;
     border-radius: 99px 0 0 99px;
     padding: 10px 40px 10px 40px;
-    font-size: 16px;
+    
     margin-right: -10px;
 }
 
 input:focus {
-    outline: none;
-}
-
-button:focus {
     outline: none;
 }
 
@@ -239,8 +266,7 @@ button:focus {
     padding: 10px;
     width: calc(100% - 20px);
     margin: 10px;
-    float: left;
-    border: 2px solid #ccc;
+    
 }
 
 .one-third {
@@ -251,6 +277,7 @@ button:focus {
     margin: 10px;
     float: left;
     border: 2px solid #ccc;
+    text-overflow: ellipsis;
 }
 
 .one-fifty {
@@ -260,7 +287,7 @@ button:focus {
     width: calc(100% - 20px);
     margin: 10px;
     float: left;
-    border: 2px solid #ccc;
+    text-align: center;
 }
 
 @media (min-width: 768px) {
