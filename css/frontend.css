@@ -60,6 +60,11 @@ header h1 {
     text-decoration: none;
 }
 
+.navbar a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
 .navbar ul {
     list-style: none;    
     text-align: right;    
@@ -158,22 +163,11 @@ footer {
 }
 
 .copyright {
-    color: #333;
+    color: #444;
 }
-
-.social {
-
-}
-
-.twitter li:before {    
-    font-family: 'FontAwesome';
-    content: '\f067';
-    margin:0 5px 0 -15px;
-    color: #f00;
-    }
 
 .social a {
-    color: #fff;
+    color: #444;
     text-decoration: none;
 }
 
@@ -184,8 +178,28 @@ footer {
 
 .social li {
     display: inline;
-    margin-right: 1em; 
+    margin-right: 0.2em; 
     
+}
+
+#twitter:hover {
+    color: #3EC6EA;
+}
+
+#facebook:hover {
+    color: #3954A1;
+}
+
+#instagram:hover {
+    color: #BE368D;
+}
+
+#googleplus:hover {
+    color: #DD5044;
+}
+
+#youtube:hover {
+    color: #FF0000;
 }
 
 /* End of 03 - Footer */
@@ -234,6 +248,14 @@ img {
     margin: 4px 4px;
     font-size: 16px;
     border-radius: 99px;
+}
+
+.btn-green:hover {  
+    background: #444;  
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .btn-green-email {
@@ -306,35 +328,6 @@ input:focus {
     .one-third {
         width: calc(33.33% - 20px);
     }
-
-    .btn-green-email {
-        background-color: #008D4C;
-        border: none;
-        color: white;
-        padding: 10px 40px 10px 40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;    
-        margin: auto;
-        font-size: 16px;
-        border-radius: 0 99px 99px 0;
-    }
-    
-    .btn-green-email:hover {  
-        background: #444;  
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;   
-    }
-    
-    .email {
-        border: none;
-        border-radius: 99px 0 0 99px;
-        padding: 10px 40px 10px 40px;
-        font-size: 16px;
-    }
-
 }
 
 /* End of 04 - Shared elements */
