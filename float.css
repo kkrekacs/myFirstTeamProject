@@ -16,7 +16,7 @@
     height: 510px;
     margin: 0px;
     position: relative;
-    background: linear-gradient(-90deg, rgb(68, 153, 19), rgb(149, 221, 115));
+    background: linear-gradient(-90deg, rgb(20, 143, 75), rgb(138, 201, 169));
 }
 
   .bg-lightblue {
@@ -30,7 +30,7 @@ background: rgb(72, 99, 134);
 
 .half2 {
     box-sizing: border-box;
-    background: linear-gradient(-90deg, rgb(3, 94, 7),  rgb(68, 153, 19));
+    background: linear-gradient(-90deg, rgb(4, 71, 51),   rgb(20, 143, 75));
     padding: 10px;
     width: 50%;
     float: left;
