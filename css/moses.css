@@ -8,7 +8,7 @@
     text-align: center;
     
     background: 
-      /* top, transparent red */ 
+      /* top, transparent green */ 
       linear-gradient(
         #125c19bf, 
         #125c19bf
@@ -16,3 +16,5 @@
       /* bottom, image */
       url(/img/stadion-section-small.jpg);
   }
+
+  /* 195px * 345px */
