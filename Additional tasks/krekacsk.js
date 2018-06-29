@@ -280,3 +280,17 @@ function findAveragePrice() {
     }
     console.log(`A termékek átlagára: ${averagePrice / parseInt(products.length)}`);
 }
+
+function findNewestItem() {
+    var newestItem = products[0];
+    for (var i in products) {
+        if (products[i].createdAt > newestItem.createdAt) {
+            newestItem = products[i];
+        }
+    }
+    var output = 'A legújabbbb termék:\n';
+    for (var i in newestItem) {
+        output += `${i}: ${newestItem[i]}\n`;
+    }
+    console.log(output);
+}
