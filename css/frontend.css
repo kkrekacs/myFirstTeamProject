@@ -1,0 +1,305 @@
+/* Frontend styling starts here! */
+/* Table of contents: 
+
+    01 - Header
+    |___ Navbar
+    |___ Header section
+
+    02 - Main
+    |___ Section 1
+    |___ Section 2
+    |___ Section 3
+    |___ Section 4
+    |___ Section 5
+    |___ Section 6
+    |___ Section 7
+    |___ Section 8
+
+    03 - Footer
+    |___ Copyright
+    |___ Social icons
+
+    04 - Shared elements
+    |___ Fonts
+    |___ Buttons
+    |___ Input fields
+*/
+
+/* 01 - Header */
+
+header {
+    margin: 0 auto;
+    position: relative;
+    width: 100%; 
+    height: 510px;   
+    overflow: auto;
+}
+
+header h1 {
+    color: #fff;
+}
+
+.header-section {
+    position: relative;
+    height: auto;
+    padding: 0 200px;
+    margin: 0 auto;     
+}
+
+.bg-gradient {
+    background: linear-gradient(to top right, #00B75A, #008D4C);
+}
+
+.navbar {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;    
+    text-align: right;    
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 1em; 
+    
+}
+
+/* End of 01 - Header */
+
+/* 02 - Main */
+
+.section1 {
+    background: #fff;
+    padding: 0 200px;
+    margin: 0 auto 40px auto;
+    height: 270px;
+}
+
+.section2 {
+    background: #44af68;
+    color: #fff;
+    padding: 0 200px;
+    margin: 0 auto;
+    height: 510px;
+}
+
+.section3 {
+    background: #fff;
+    padding: 0 200px;
+    margin: 0 auto;
+    height: 510px;
+}
+
+.section4 {
+    background: #44af68;
+    color: #fff;
+    padding: 0 200px;
+    margin: 0 auto;
+    height: 270px;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.section5 {
+    background: #44af68;
+    padding: 0 200px;
+    margin: -10px auto 0 auto;
+    height: 330px;    
+    text-align: center;
+    color: #fff;
+}
+
+.section6 {
+    background: #fff;
+    padding: 0 200px;
+    margin: 0 auto;
+    height: 510px;
+}
+
+.section7 {
+    background: #44af68;
+    padding: 0 200px;
+    margin: 0 auto;
+    height: 270px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.section8 {
+    background: #fff;
+    padding: 0 200px;
+    margin: 0 auto;
+    height: 270px;
+    text-align: center;
+}
+
+
+/* End of 02 - Main */
+
+/* 03 - Footer */
+
+footer {
+    background: #fff;
+    padding: 0 200px;
+    margin: 0 auto;
+    border-top: 1px solid #E8E8E8;
+    height: 60px;
+    font-size: 14px;
+}
+
+.copyright {
+    color: #333;
+}
+
+.social {
+
+}
+
+.twitter li:before {    
+    font-family: 'FontAwesome';
+    content: '\f067';
+    margin:0 5px 0 -15px;
+    color: #f00;
+    }
+
+.social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social ul {
+    list-style: none;    
+    text-align: right;    
+}
+
+.social li {
+    display: inline;
+    margin-right: 1em; 
+    
+}
+
+/* End of 03 - Footer */
+
+/* 04 - Shared elements */
+
+body {
+    margin: 0;
+       
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif; 
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-white {
+    background-color: #fff;
+    border: none;
+    color: #4CAF50;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+    margin: 4px 4px;
+    font-size: 16px;
+    border-radius: 99px;
+
+}
+
+.btn-green {
+    background-color: #008D4C;
+    border: none;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+    margin: 4px 4px;
+    font-size: 16px;
+    border-radius: 99px;
+}
+
+.btn-green-email {
+    background-color: #008D4C;
+    border: none;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+    margin: 4px 4px;
+    
+    border-radius: 0 99px 99px 0;
+}
+
+.email {
+    border: none;
+    border-radius: 99px 0 0 99px;
+    padding: 10px 40px 10px 40px;
+    
+    margin-right: -10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.full-width {
+    position: relative;
+    box-sizing: border-box;    
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin: 10px;
+    
+}
+
+.one-third {
+    position: relative;
+    box-sizing: border-box;    
+    padding: 10px;
+    width: calc(70% - 20px);
+    margin: 10px;
+    float: left;
+    border: 2px solid #ccc;
+    text-overflow: ellipsis;
+}
+
+.one-fifty {
+    position: relative;
+    box-sizing: border-box;    
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .one-fifty {
+        width: calc(50% - 20px);
+    }
+
+    .one-third {
+        width: calc(33.33% - 20px);
+    }
+
+}
+
+/* End of 04 - Shared elements */
+/* End of frontend styling! */
