@@ -156,3 +156,9 @@ left: 300px
     position: absolute
   
 }
+
+.ok:hover {
+    background-color: rgb(233, 233, 233);
+    color: rgb(41, 39, 202);}
+
+
