@@ -249,5 +249,126 @@ var products = [
         createdAt: "2018-06-20",
         updatedAt: "2018-06-25",
     }
-]
+];
 
+function findMostWanted() {
+    var mostWantedItem = products[0];
+    for (var i in products) {
+        if (mostWantedItem.sold < products[i].sold) {
+            mostWantedItem = products[i];
+        }
+    }
+    var output = 'A legnépszerűbb termék:\n';
+    for (var i in mostWantedItem) {
+        output += `${i}: ${mostWantedItem[i]}`;
+    }
+    console.log(output);
+}
+
+function totalPrice() {
+    var price = 0;
+    for (var i in products) {
+        price += products[i].price;
+    }
+    console.log(`A termékek összára: ${price}`);
+}
+
+function findAveragePrice() {
+    var averagePrice = 0;
+    for (var i in products) {
+        averagePrice += products[i].price;
+    }
+    console.log(`A termékek átlagára: ${averagePrice / parseInt(products.length)}`);
+}
+
+function findNewestItem() {
+    var newestItem = products[0];
+    for (var i in products) {
+        if (products[i].createdAt > newestItem.createdAt) {
+            newestItem = products[i];
+        }
+    }
+    var output = 'A legújabbbb termék:\n';
+    for (var i in newestItem) {
+        output += `${i}: ${newestItem[i]}\n`;
+    }
+    console.log(output);
+}
+
+function sortByPrice() {
+    var index = parseInt((products.length)) - 1;
+    var newIndex;
+    do {
+        newIndex = 0;
+        for (var i = 1; i <= index; i++) {
+            if (products[i - 1].price > products[i].price) {
+                var helper = products[i - 1];
+                products[i - 1] = products[i];
+                products[i] = helper;
+                newIndex = i;
+            }
+        }
+        index = newIndex;
+    } while (index !== 0);
+    var output = '';
+    for (var i in products) {
+        index++;
+        output += `\n${index}.elem:\n`;
+        for (var j in products[i]) {
+            output += `${j}: ${products[i][j]}\n`
+        }
+    }
+    console.log(output);
+}
+
+function findMostPopularThree() {
+    var index = parseInt((products.length)) - 1;
+    var newIndex;
+    do {
+        newIndex = 0;
+        for (var i = 1; i <= index; i++) {
+            if (products[i - 1].sold > products[i].sold) {
+                var helper = products[i - 1];
+                products[i - 1] = products[i];
+                products[i] = helper;
+                newIndex = i;
+            }
+        }
+        index = newIndex;
+    } while (index !== 0);
+    var output = '';
+    for (var i = parseInt((products.length)) - 1; i > parseInt((products.length)) - 4; i--) {
+        index++;
+        output += `\n${index}. legnépszerűbb elem:\n`;
+        for (var j in products[i]) {
+            output += `${j}: ${products[i][j]}\n`
+        }
+    }
+    console.log(output);
+}
+
+function findNewestThree() {
+    var index = parseInt((products.length)) - 1;
+    var newIndex;
+    do {
+        newIndex = 0;
+        for (var i = 1; i <= index; i++) {
+            if (products[i - 1].createdAt > products[i].createdAt) {
+                var helper = products[i - 1];
+                products[i - 1] = products[i];
+                products[i] = helper;
+                newIndex = i;
+            }
+        }
+        index = newIndex;
+    } while (index !== 0);
+    var output = '';
+    for (var i = parseInt((products.length)) - 1; i > parseInt((products.length)) - 4; i--) {
+        index++;
+        output += `\n${index}. legújabb elem:\n`;
+        for (var j in products[i]) {
+            output += `${j}: ${products[i][j]}\n`
+        }
+    }
+    console.log(output);
+}
