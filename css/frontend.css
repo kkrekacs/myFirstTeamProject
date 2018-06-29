@@ -98,7 +98,16 @@ main {
     color: #fff;
     padding: 0 200px;
     margin: -40px auto 0 auto;
-    height: 510px;
+    height: 405px;
+}
+
+.section-content {
+    margin-top: 70px;     
+    text-align: left;
+}
+
+.section2-img {
+    margin-left: 150px;
 }
 
 .section3 {
@@ -359,7 +368,7 @@ input:focus {
     }   
 
     .one-third img {
-        bottom:35px;
+        bottom:40px;
     }
 
 }
@@ -371,7 +380,7 @@ input:focus {
     }
 
     .section1 {
-        height: 475px;
+        height: 520px;
     }
 
     .one-third {
@@ -380,6 +389,14 @@ input:focus {
     
     .one-third img {
         bottom: 0;
+    }
+
+    .section2 {
+        height: 665px;
+    }
+
+    .section2-img {
+        margin-left: 0;
     }
 
 }
