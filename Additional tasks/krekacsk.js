@@ -272,3 +272,11 @@ function totalPrice() {
     }
     console.log(`A termékek összára: ${price}`);
 }
+
+function findAveragePrice() {
+    var averagePrice = 0;
+    for (var i in products) {
+        averagePrice += products[i].price;
+    }
+    console.log(`A termékek átlagára: ${averagePrice / parseInt(products.length)}`);
+}
