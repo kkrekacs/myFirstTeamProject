@@ -335,9 +335,7 @@ input:focus {
     padding: 10px;
     width: calc(70% - 20px);
     margin: 10px;
-    float: left;
-    border: 2px solid #ccc;
-    text-overflow: ellipsis;
+    float: left;  
 }
 
 .one-fifty {
@@ -357,7 +355,12 @@ input:focus {
 
     .one-third {
         width: calc(33.33% - 20px);
+        height: 100%;
     }   
+
+    .one-third img {
+        bottom:35px;
+    }
 
 }
 
@@ -365,6 +368,18 @@ input:focus {
 
     .section3 {
         height: 630px;
+    }
+
+    .section1 {
+        height: 475px;
+    }
+
+    .one-third {
+        width: 100%;      
+    }
+    
+    .one-third img {
+        bottom: 0;
     }
 
 }
