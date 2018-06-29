@@ -98,7 +98,16 @@ main {
     color: #fff;
     padding: 0 200px;
     margin: -40px auto 0 auto;
-    height: 510px;
+    height: 405px;
+}
+
+.section-content {
+    margin-top: 70px;     
+    text-align: left;
+}
+
+.section2-img {
+    margin-left: 150px;
 }
 
 .section3 {
@@ -109,15 +118,8 @@ main {
     
 }
 
-.section4 {
-    background: url(/img/stadion-section-small.jpg);
-    background-size: cover;
-    color: #fff;
-    padding: 0 200px;
-    margin: 0 auto;
-    height: 270px;
-    font-style: italic;
-    text-align: center;
+.quote  {
+    margin-top: 70px; 
     
 }
 
@@ -130,11 +132,26 @@ main {
     color: #fff;
 }
 
+.section5-content {
+    margin-top: -15px;
+}
+
 .section6 {
     background: #fff;
     padding: 0 200px;
     margin: 0 auto;
-    height: 510px;
+    height: 400px;
+    text-align: left;
+}
+
+.section6-img {
+    margin: 18px 0 0 150px;
+
+}
+
+.section6-content {
+    margin-top: 100px;     
+    text-align: left;
 }
 
 .section7 {
@@ -359,7 +376,7 @@ input:focus {
     }   
 
     .one-third img {
-        bottom:35px;
+        bottom:40px;
     }
 
 }
@@ -371,7 +388,7 @@ input:focus {
     }
 
     .section1 {
-        height: 475px;
+        height: 520px;
     }
 
     .one-third {
@@ -380,6 +397,30 @@ input:focus {
     
     .one-third img {
         bottom: 0;
+    }
+
+    .section2 {
+        height: 665px;
+    }
+
+    .section2-img {
+        margin-left: 0;
+    }
+
+    .copyright {
+        margin-left: 30px;
+    }
+
+    .section6 {
+        height: 570px;
+    }
+
+    .section6-content {
+        margin-top: 0;
+    }
+
+    .section6-img {
+        margin-left: 0;
     }
 
 }
