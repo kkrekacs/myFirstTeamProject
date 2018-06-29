@@ -96,15 +96,14 @@ background: rgb(72, 99, 134);
 
 .active {
     
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 150px;
-
+    
+    width: 250px;
     height: 25px;
     color: whitesmoke;
     border: 0mm;
     height: 30px;
     text-decoration: none;
-    font-family: nunito
+    
   
 }
 
