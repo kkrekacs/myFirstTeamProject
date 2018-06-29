@@ -47,7 +47,7 @@ header h1 {
 }
 
 .bg-gradient {
-    background: linear-gradient(to top right, #00B75A, #008D4C);
+    background: linear-gradient(to top right, #67DB8D, #008D4C);
 }
 
 .navbar {
@@ -63,6 +63,7 @@ header h1 {
 .navbar a:hover {
     color: #444;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .navbar ul {
