@@ -118,6 +118,11 @@ main {
     
 }
 
+.section3-content {
+    margin-top: 100px;     
+    text-align: right;
+}
+
 .quote  {
     margin-top: 70px; 
     
@@ -362,16 +367,6 @@ input:focus {
     width: calc(100% - 20px);
     margin: 10px;
     float: left;
-    text-align: center;
-}
-
-.one-fifty3 {
-    position: relative;
-    box-sizing: border-box;    
-    padding: 0;
-    width: calc(100% - 20px);
-    margin: 10px;
-    float: right;
     text-align: center;
 }
 
