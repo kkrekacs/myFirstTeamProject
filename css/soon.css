@@ -14,7 +14,12 @@ p {
 }
 
 .contain {
-    background-image: url("/img/stadion-coming-soon.jpg");
+    background: 
+      linear-gradient(
+        #125c19bf, 
+        #125c19bf
+      ),
+      url('/img/stadion-coming-soon.jpg');
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
