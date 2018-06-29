@@ -399,6 +399,10 @@ input:focus {
         margin-left: 0;
     }
 
+    .copyright {
+        margin-left: 30px;
+    }
+
 }
 
 /* End of 04 - Shared elements */
