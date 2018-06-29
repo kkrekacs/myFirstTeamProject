@@ -1,0 +1,44 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 4em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    margin: 1em 0px;
+}
+
+.contain {
+    background: 
+      linear-gradient(
+        #125c19bf, 
+        #125c19bf
+      ),
+      url('/img/stadion-coming-soon.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section {
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.half {
+    position: relative;
+    box-sizing: border-box;    
+    padding: 0;
+    width: calc(50% - 20px);
+    margin: 10px;
+    float: left;
+}
