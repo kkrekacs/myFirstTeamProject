@@ -294,3 +294,29 @@ function findNewestItem() {
     }
     console.log(output);
 }
+
+function sortByPrice() {
+    var index = parseInt((products.length)) - 1;
+    var newIndex;
+    do {
+        newIndex = 0;
+        for (var i = 1; i <= index; i++) {
+            if (products[i - 1].price > products[i].price) {
+                var helper = products[i - 1];
+                products[i - 1] = products[i];
+                products[i] = helper;
+                newIndex = i;
+            }
+        }
+        index = newIndex;
+    } while (index !== 0);
+    var output = '';
+    for (var i in products) {
+        index++;
+        output += `\n${index}.elem:\n`;
+        for (var j in products[i]) {
+            output += `${j}: ${products[i][j]}\n`
+        }
+    }
+    console.log(output);
+}
