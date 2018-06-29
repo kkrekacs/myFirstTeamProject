@@ -30,7 +30,7 @@
 header {
     margin: 0 auto;
     position: relative;
-    width: 100%; 
+    width: 1200px; 
     height: 510px;   
     overflow: auto;
 }
@@ -79,6 +79,11 @@ header h1 {
 /* End of 01 - Header */
 
 /* 02 - Main */
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .section1 {
     background: #fff;
@@ -154,11 +159,11 @@ header h1 {
 /* 03 - Footer */
 
 footer {
-    background: #fff;
-    padding: 0 200px;
+    background: #fff;    
     margin: 0 auto;
     border-top: 1px solid #E8E8E8;
     height: 60px;
+    width: 1200px;
     font-size: 14px;
 }
 
