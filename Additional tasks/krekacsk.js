@@ -320,3 +320,29 @@ function sortByPrice() {
     }
     console.log(output);
 }
+
+function findMostPopularThree() {
+    var index = parseInt((products.length)) - 1;
+    var newIndex;
+    do {
+        newIndex = 0;
+        for (var i = 1; i <= index; i++) {
+            if (products[i - 1].sold > products[i].sold) {
+                var helper = products[i - 1];
+                products[i - 1] = products[i];
+                products[i] = helper;
+                newIndex = i;
+            }
+        }
+        index = newIndex;
+    } while (index !== 0);
+    var output = '';
+    for (var i = parseInt((products.length)) - 1; i > parseInt((products.length)) - 4; i--) {
+        index++;
+        output += `\n${index}. legnépszerűbb elem:\n`;
+        for (var j in products[i]) {
+            output += `${j}: ${products[i][j]}\n`
+        }
+    }
+    console.log(output);
+}
