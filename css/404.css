@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    margin: 5px 0px;
+}
+
+.contain {
+    height: 100vh;
+    width: 100%;
+}
+
+.single {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-section-class-p-a {
+    text-decoration: none;
+    background: url('/img/dash-dotted.png') repeat-x 100% 100%;
+    color: #0D6E90;
+}
+
