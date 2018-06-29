@@ -1,0 +1,164 @@
+.container {
+   
+    margin: 0;
+    overflow: 0;
+    width: 100%;
+    height: 170vh;
+    background: white
+   
+}
+
+.half {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+    float: left;
+    height: 510px;
+    margin: 0px;
+    position: relative;
+    background: linear-gradient(-90deg, rgb(68, 153, 19), rgb(149, 221, 115));
+}
+
+  .bg-lightblue {
+    background: rgb(171, 199, 209);
+}
+/*@media (min-width: 768px) {
+ .half {
+background: rgb(72, 99, 134);
+ }
+}*/
+
+.half2 {
+    box-sizing: border-box;
+    background: linear-gradient(-90deg, rgb(3, 94, 7),  rgb(68, 153, 19));
+    padding: 10px;
+    width: 50%;
+    float: left;
+    height: 510px;
+    margin: 0px;
+    left: 300px;
+    top: 25px;
+    
+}
+
+.pic {
+    border-radius: 8px;
+    height: 500px;
+    width:380px;
+    height:400px;
+    position: relative;
+    left: 300px;
+    top: 85px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.contacts {
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    background: whitesmoke;
+    height: 30px;
+    color:  rgb(5, 77, 110);
+    border: 0mm;
+
+}
+
+.regist {
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    background: whitesmoke;
+    height: 25px;
+    color:  rgb(5, 77, 110);
+    border: 0mm;
+    height: 30px;
+    
+}
+
+.contacts:hover {
+    background-color:  rgb(5, 77, 110);
+    color: white;
+    
+   
+}
+
+.regist:hover {
+    background-color: rgb(5, 77, 110);
+    color: white;}
+
+.active {
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+
+    height: 25px;
+    color: whitesmoke;
+    border: 0mm;
+    height: 30px;
+    text-decoration: none;
+  
+}
+
+input[type=text], input[type=password] {
+    width: 66.66%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    border: rgb(236, 235, 235)
+}
+.beviteli {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 66.66%;
+    float: left;
+    height: 510px;
+    margin: 0px;
+    position: relative;
+left: 300px;
+border: rgb(19, 18, 18)
+
+}
+#comment {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 68%;
+    float: left;
+    height: 180px;
+    margin: 0px;
+    font-weight: bold;
+    border: rgb(236, 235, 235);
+    background: #ffffff;
+left: 300px
+
+}
+
+.ok {
+
+    border-radius: 40px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 75px;
+    background: rgb(18, 48, 133);
+    height: 30px;
+    color:  rgb(240, 242, 243);
+    border: 0mm;
+}
+.welcome {
+   
+    
+    padding: 10px;
+    width: 33.33%;
+    float: right;
+    height: 100px;
+    margin: 0px;
+    left: 700px;
+    position: absolute
+  
+}
+
+.ok:hover {
+    background-color: rgb(233, 233, 233);
+    color: rgb(41, 39, 202);}
+
+

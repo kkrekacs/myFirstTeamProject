@@ -2,8 +2,8 @@
 /* Table of contents: 
 
     01 - Header
-    |___ Navbar
     |___ Header section
+    |___ Navbar
 
     02 - Main
     |___ Section 1
@@ -60,6 +60,11 @@ header h1 {
     text-decoration: none;
 }
 
+.navbar a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
 .navbar ul {
     list-style: none;    
     text-align: right;    
@@ -98,7 +103,8 @@ header h1 {
 }
 
 .section4 {
-    background: #44af68;
+    background: url(/img/stadion-section-small.jpg);
+    background-size: cover;
     color: #fff;
     padding: 0 200px;
     margin: 0 auto;
@@ -127,7 +133,7 @@ header h1 {
 .section7 {
     background: #44af68;
     padding: 0 200px;
-    margin: 0 auto;
+    margin: auto;
     height: 270px;
     text-align: center;
     color: #fff;
@@ -157,22 +163,11 @@ footer {
 }
 
 .copyright {
-    color: #333;
+    color: #444;
 }
-
-.social {
-
-}
-
-.twitter li:before {    
-    font-family: 'FontAwesome';
-    content: '\f067';
-    margin:0 5px 0 -15px;
-    color: #f00;
-    }
 
 .social a {
-    color: #fff;
+    color: #444;
     text-decoration: none;
 }
 
@@ -183,8 +178,28 @@ footer {
 
 .social li {
     display: inline;
-    margin-right: 1em; 
+    margin-right: 0.2em; 
     
+}
+
+#twitter:hover {
+    color: #3EC6EA;
+}
+
+#facebook:hover {
+    color: #3954A1;
+}
+
+#instagram:hover {
+    color: #BE368D;
+}
+
+#googleplus:hover {
+    color: #DD5044;
+}
+
+#youtube:hover {
+    color: #FF0000;
 }
 
 /* End of 03 - Footer */
@@ -235,6 +250,14 @@ img {
     border-radius: 99px;
 }
 
+.btn-green:hover {  
+    background: #444;  
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
 .btn-green-email {
     background-color: #008D4C;
     border: none;
@@ -244,15 +267,23 @@ img {
     text-decoration: none;
     display: inline-block;    
     margin: 4px 4px;
-    
+    font-size: 16px;
     border-radius: 0 99px 99px 0;
+}
+
+.btn-green-email:hover {  
+    background: #444;  
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .email {
     border: none;
     border-radius: 99px 0 0 99px;
     padding: 10px 40px 10px 40px;
-    
+    font-size: 16px;
     margin-right: -10px;
 }
 
@@ -261,9 +292,8 @@ input:focus {
 }
 
 .full-width {
-    position: relative;
-    box-sizing: border-box;    
-    padding: 10px;
+    position: relative;   
+    padding: 50px 10px 10px 10px;
     width: calc(100% - 20px);
     margin: 10px;
     
@@ -298,7 +328,6 @@ input:focus {
     .one-third {
         width: calc(33.33% - 20px);
     }
-
 }
 
 /* End of 04 - Shared elements */
