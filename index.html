@@ -6,35 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/frontend.css">
+    <link rel="stylesheet" href="css/moses.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito" rel="stylesheet">
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons//apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons//favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons//favicon-16x16.png">
-    <link rel="manifest" href="img/favicons//site.webmanifest">
-    <link rel="mask-icon" href="img/favicons//safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- Tooltip -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
     <title>Teaming360</title>
 </head>
 
 <body>
-
     <header class="bg-gradient">
         <div class="header-section">
             <div class="navbar">
                 <ul>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <span data-balloon="Lépj velünk kapcsolatba!" data-balloon-pos="down">
+                            <a href="contact.html">Kapcsolat</a>
+                        </span>
                     </li>
                     <li>
-                        <a href="coming-soon.html">Coming soon</a>
+                        <span data-balloon="Hamarosan..." data-balloon-pos="down">
+                            <a href="coming-soon.html">Hamarosan</a>
+                        </span>
                     </li>
                     <li>
-                        <a href="page-not-found.html">404</a>
+                        <span data-balloon="Elvitte a cica..." data-balloon-pos="down">
+                            <a href="page-not-found.html">404</a>
+                        </span>
                     </li>
                     <li>
-                        <a href="login.html">Login</a>
+                        <span data-balloon="Adminok számára fenntartott terület." data-balloon-pos="down">
+                            <a href="login.html">Bejelentkezés</a>
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -49,13 +59,46 @@
 
     <main>
         <section class="section1">
-            <div class="one-third"></div>
-            <div class="one-third"></div>
-            <div class="one-third"></div>
+            <div class="one-third">
+                <p>
+                    <i>"Én őszintén hiszek benne, hogy minden országban van olyan, aki képes focizni. Már csak ki kell valahogy
+                        rángatni az Audi gyárból!"</i>
+                </p>
+                <p>Cristiano Ronaldo
+                    <img src="img/cr.jpg" alt="ronaldo-hungary" height="75px" class="imageMoses">
+                </p>
+            </div>
+            <div class="one-third">
+                <p>
+                    <i>"Muszáj volt leellenőriznem, hogy mivel etetik Katinkát, amitől sprintel a víz alatt, aztán valahogy
+                        itt ragadtam. És nem csak a kaja miatt"</i>
+                </p>
+                <p>Michael Phelps
+                    <img src="img/mp.jpg" alt="phelps-hungary" height="75px" class="imageMoses">
+                </p>
+            </div>
+            <div class="one-third">
+                <p>
+                    <i>"Golfoztam már sok helyen, hidegben, melegben, viharban és kánikulában, de egy puszta közepén szürkemarhák
+                        és bajuszos idegenek között... Na ott még nem!" </i>
+                </p>
+                <p>Tiger Woods
+                    <img src="img/tw.jpg" alt="woods-hungary" height="75px" class="imageMoses">
+                </p>
+            </div>
         </section>
         <section class="section2">
-            <div class="one-fifty"></div>
-            <div class="one-fifty"></div>
+            <div class="one-fifty">
+                <h2>Eddz a legjobbakkal!</h2>
+                <p>Miért fociznál a többiekkel a parkban, ha a legnagyobbakkal is megtehetnéd? Miért álmodoznál arról, hogy
+                    milyen lehet csillagnak lenni, ha egyúttal el is jöhetsz, és te magad is bepillantást nyerhetsz a bajnokok
+                    életébe? Sőt, ki mondta, hogy nem válhat belőled is egy közülük a megfelelő kezek alatt? Nálunk minden
+                    megtörténhet!
+                </p>
+            </div>
+            <div class="one-fifty">
+                <img src="img/training2.jpg" height="345px" width="195px">
+            </div>
         </section>
         <section class="section3">
             <div class="one-fifty">
@@ -70,7 +113,7 @@
                 <img src="/img/ronaldo-meets-fan.jpg" alt="Ronaldo-with-kid">
             </div>
         </section>
-        <section class="section4">
+        <section class="tinted-image">
             <div class="full-width">
 
             </div>
@@ -88,60 +131,80 @@
         </section>
         <section class="section6">
             <div class="one-fifty">
-
+                <h2>Dedikált vásárlások</h2>
+                <p>Bizony, nálunk minden vásárlás olyan, mintha egy dedikált terméket vásárolnál! Dobálj csak be nyugodtan mindent
+                    a kosárba, amin látni szeretnéd kedvenc a sportolód kézjegyét, és élvezd a megtelő polcok látványát.
+                    Az ínhüvelygyulladásról majd mi gondoskodunk!
+                </p>
+            </div>
+            <div class="one-fifty">
+                <img src="img/autograph.jpg" height="345px" width="195px" alt="autographed items">
             </div>
         </section>
         <section class="section7">
             <div class="full-width">
                 <h2>Iratkozz fel hírlevelünkre!</h2>
                 <p>Feliratkozást követően ne felejtsd el megerősíteni e-mail címedet!</p>
-                <input class="email" class="input" name="subscription" id="subscription" type="email" placeholder="Ide jön a Te e-mail címed :)">
+                <input class="email" class="input" name="subscription" id="subscription" type="email" placeholder="Add meg az e-mail címed...">
                 <button for="subscription" name="subscription" class="btn-green-email">Küldés</button>
             </div>
         </section>
         <section class=" section8 ">
             <div class="full-width">
                 <h2>Töltsd le most applikációnkat!</h2>
-                <button for="download-ios" class="btn-green">Letöltés iOs készülékre</button>
-                <button for="download-android " class="btn-green">Letöltés Android készülékre</button>
+                <button for="download-ios" class="btn-green">
+                    <a href="https://itunes.apple.com/hu/genre/ios/id36?mt=8" target="_blank">Letöltés iOS készülékre</a>
+                </button>
+                <button for="download-android " class="btn-green ">
+                    <a href="https://play.google.com/store/apps" target="_blank">Letöltés Android készülékre</a>
+                </button>
             </div>
     </main>
 
     <footer>
-        <div class="one-fifty">
-            <p class="copyrigth">&copy;2018 Teaming360</p>
+        <div class="one-fifty ">
+            <p class="copyrigth ">&copy;2018 Teaming360</p>
         </div>
-        <div class="one-fifty">
-            <ul class="social">
+        <div class="one-fifty ">
+            <ul class="social ">
                 <li>
-                    <a id="instagram" href="https://instagram.com/">
-                        <span class="fab fa-instagram"></span>
+                    <a id="instagram " href="https://instagram.com/">
+                        <span data-balloon="Kövesd Instagram oldalunkat! " data-balloon-pos="up">
+                            <span class="fab fa-instagram "></span>
+                        </span>
                     </a>
                 </li>
                 <li>
-                    <a id="facebook" href="https://facebook.com/">
-                        <span class="fab fa-facebook"></span>
+                    <a id="facebook " href="https://facebook.com/">
+                        <span data-balloon="Kövesd Facebook profilunkat! " data-balloon-pos="up">
+                            <span class="fab fa-facebook "></span>
+                        </span>
                     </a>
                 </li>
                 <li>
-                    <a id="twitter" href="https://twitter.com/">
-                        <span class="fab fa-twitter"></span>
+                    <a id="twitter " href="https://twitter.com/">
+                        <span data-balloon="Kövesd Twitter fiókunkat! " data-balloon-pos="up">
+                            <span class="fab fa-twitter "></span>
+                        </span>
                     </a>
                 </li>
                 <li>
-                    <a id="googleplus" href="https://plus.google.com/">
-                        <span class="fab fa-google-plus"></span>
+                    <a id="googleplus " href="https://plus.google.com/">
+                        <span data-balloon="Kövesd Google+ oldalunkat! " data-balloon-pos="up">
+                            <span class="fab fa-google-plus "></span>
+                        </span>
                     </a>
                 </li>
                 <li>
-                    <a id="youtube" href="https://youtube.com/">
-                        <span class="fab fa-youtube"></span>
+                    <a id="youtube " href="https://youtube.com/">
+                        <span data-balloon="Kövesd YouTube csatornánkat!" data-balloon-pos="up">
+                            <span class="fab fa-youtube "></span>
+                        </span>
                     </a>
                 </li>
             </ul>
         </div>
     </footer>
-
 </body>
 
 </html>

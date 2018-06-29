@@ -1,0 +1,27 @@
+.tinted-image {
+    background: #44af68;
+    color: #fff;
+    padding: 0 200px;
+    margin: 0 auto;
+    height: 270px;
+    font-style: italic;
+    text-align: center;
+    
+    background: 
+      /* top, transparent green */ 
+      linear-gradient(
+        #125c19bf, 
+        #125c19bf
+      ),
+      /* bottom, image */
+      url(/img/stadion-section-small.jpg);
+  }
+
+  .imageMoses {
+      border-radius: 50%;
+      position: absolute;
+      
+      right:15px;
+  }
+
+  /* 195px * 345px */

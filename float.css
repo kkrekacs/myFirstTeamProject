@@ -4,7 +4,7 @@
     overflow: 0;
     width: 100%;
     height: 170vh;
-    background: white
+    background: rgb(253, 253, 253)
    
 }
 
@@ -16,7 +16,7 @@
     height: 510px;
     margin: 0px;
     position: relative;
-    background: linear-gradient(-90deg, rgb(68, 153, 19), rgb(149, 221, 115));
+    background: linear-gradient(-90deg, rgb(20, 143, 75), rgb(138, 201, 169));
 }
 
   .bg-lightblue {
@@ -30,7 +30,7 @@ background: rgb(72, 99, 134);
 
 .half2 {
     box-sizing: border-box;
-    background: linear-gradient(-90deg, rgb(3, 94, 7),  rgb(68, 153, 19));
+    background: linear-gradient(-90deg, rgb(4, 71, 51),   rgb(20, 143, 75));
     padding: 10px;
     width: 50%;
     float: left;
@@ -164,4 +164,27 @@ font-family: nunito
     background-color: rgb(45, 48, 46);
     color:white}
 
+
+.link {
+       font-size: 45px; 
+        margin: 0px; color: white; 
+        text-decoration: none;
+    
+    }
+    .activebutton {
+
+        border-radius: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width: 150px;
+        background: whitesmoke;
+        height: 300px;
+        color:  rgb(5, 78, 38);
+        border: 0mm;
+        font-size: 30px;
+        text-decoration: none
+    
+    }
+    .activebutton:hover {
+        background-color: rgb(4, 63, 24);
+        color:white}
 
