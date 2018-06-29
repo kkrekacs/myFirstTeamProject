@@ -96,15 +96,21 @@ main {
     background: #44af68;
     color: #fff;
     padding: 0 200px;
-    margin: 0 auto;
+    margin: -40px auto 0 auto;
     height: 510px;
 }
 
 .section3 {
     background: #fff;
     padding: 0 200px;
-    margin: 0 auto;
-    height: 510px;
+    margin: 0 auto -10px auto;
+    height: 400px;      
+    
+}
+
+.wrapper > img {
+    height: 100%;
+    margin-top: 50px;
 }
 
 .section4 {
@@ -138,7 +144,7 @@ main {
 .section7 {
     background: #44af68;
     padding: 0 200px;
-    margin: auto;
+    margin: -10px auto 0 auto;
     height: 270px;
     text-align: center;
     color: #fff;
@@ -148,7 +154,7 @@ main {
 .section8 {
     background: #fff;
     padding: 0 200px;
-    margin: 0 auto;
+    margin: -10px auto 0 auto;
     height: 270px;
     text-align: center;
 }
@@ -160,11 +166,12 @@ main {
 
 footer {
     background: #fff;    
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     border-top: 1px solid #E8E8E8;
     height: 60px;
     width: 1200px;
     font-size: 14px;
+    position: relative;
 }
 
 .copyright {
@@ -213,6 +220,7 @@ footer {
 
 body {
     margin: 0;
+    background: #F4F4F5;
        
 }
 
@@ -226,6 +234,16 @@ p {
 
 img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
 }
 
 .btn-white {
@@ -318,7 +336,7 @@ input:focus {
 .one-fifty {
     position: relative;
     box-sizing: border-box;    
-    padding: 10px;
+    padding: 0;
     width: calc(100% - 20px);
     margin: 10px;
     float: left;
@@ -332,7 +350,16 @@ input:focus {
 
     .one-third {
         width: calc(33.33% - 20px);
+    }   
+
+}
+
+@media (max-width: 767px) {
+
+    .section3 {
+        height: 630px;
     }
+
 }
 
 /* End of 04 - Shared elements */

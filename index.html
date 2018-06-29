@@ -10,11 +10,13 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito" rel="stylesheet">
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons//apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons//favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons//favicon-16x16.png">
-    <link rel="manifest" href="img/favicons//site.webmanifest">
-    <link rel="mask-icon" href="img/favicons//safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- Tooltip -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
     <title>Teaming360</title>
 </head>
 
@@ -25,16 +27,24 @@
             <div class="navbar">
                 <ul>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <span data-balloon="Lépj velünk kapcsolatba!" data-balloon-pos="down">
+                            <a href="contact.html">Kapcsolat</a>
+                        </span>
                     </li>
                     <li>
-                        <a href="coming-soon.html">Coming soon</a>
+                        <span data-balloon="Hamarosan..." data-balloon-pos="down">
+                            <a href="coming-soon.html">Hamarosan</a>
+                        </span>
                     </li>
                     <li>
-                        <a href="page-not-found.html">404</a>
+                        <span data-balloon="Elvitte a cica..." data-balloon-pos="down">
+                            <a href="page-not-found.html">404</a>
+                        </span>
                     </li>
                     <li>
-                        <a href="login.html">Login</a>
+                        <span data-balloon="Adminok számára fenntartott terület." data-balloon-pos="down">
+                            <a href="login.html">Bejelentkezés</a>
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -59,12 +69,15 @@
         </section>
         <section class="section3">
             <div class="one-fifty">
-                <h2>Te is találkoznál kedvenc sportolóddal?</h2>
-                <p>Gyere el és találkozz velünk a Budapest SportArénában! Meglepetésvendégekkel, programokkal várunk Téged.
-                    Ne maradj le erről az életre szóló élményről, hiszen kiváló sportolókkal tölthetsz el egy teljes napot.
-                    Vegyél részt a Teaming360 bajnokságán, és játssz értékes ajándékcsomagjainkért! Kipróbálhatod magad fociban,
-                    kosárlabdában, röplabdában vagy akár a kézilabdában is. A minőségi sporteszközöket és a kiváló hangulatot
-                    természetesen mi biztosítjuk. Ha megtetszett bármelyik termékünk, a helyszínen meg is vásárolhatod.</p>
+                <div class="wrapper">
+                    <h2>Te is találkoznál kedvenc sportolóddal?</h2>
+                    <p>Gyere el és találkozz velünk a Budapest SportArénában! Meglepetésvendégekkel, programokkal várunk Téged.
+                        Ne maradj le erről az életre szóló élményről, hiszen kiváló sportolókkal tölthetsz el egy teljes
+                        napot. Vegyél részt a Teaming360 bajnokságán, és játssz értékes ajándékcsomagjainkért! Kipróbálhatod
+                        magad fociban, kosárlabdában, röplabdában vagy akár a kézilabdában is. A minőségi sporteszközöket
+                        és a kiváló hangulatot természetesen mi biztosítjuk. Ha megtetszett bármelyik termékünk, a helyszínen
+                        meg is vásárolhatod.</p>
+                </div>
             </div>
             <div class="one-fifty">
                 <img src="/img/ronaldo-meets-fan.jpg" alt="Ronaldo-with-kid">
@@ -95,14 +108,14 @@
             <div class="full-width">
                 <h2>Iratkozz fel hírlevelünkre!</h2>
                 <p>Feliratkozást követően ne felejtsd el megerősíteni e-mail címedet!</p>
-                <input class="email" class="input" name="subscription" id="subscription" type="email" placeholder="Ide jön a Te e-mail címed :)">
+                <input class="email" class="input" name="subscription" id="subscription" type="email" placeholder="Add meg az e-mail címed">
                 <button for="subscription" name="subscription" class="btn-green-email">Küldés</button>
             </div>
         </section>
         <section class=" section8 ">
             <div class="full-width">
                 <h2>Töltsd le most applikációnkat!</h2>
-                <button for="download-ios" class="btn-green">Letöltés iOs készülékre</button>
+                <button for="download-ios" class="btn-green">Letöltés iOS készülékre</button>
                 <button for="download-android " class="btn-green">Letöltés Android készülékre</button>
             </div>
     </main>
@@ -115,27 +128,37 @@
             <ul class="social">
                 <li>
                     <a id="instagram" href="https://instagram.com/">
-                        <span class="fab fa-instagram"></span>
+                        <span data-balloon="Kövesd Instagram oldalunkat!" data-balloon-pos="up">
+                            <span class="fab fa-instagram"></span>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a id="facebook" href="https://facebook.com/">
-                        <span class="fab fa-facebook"></span>
+                        <span data-balloon="Kövesd Facebook profilunkat!" data-balloon-pos="up">
+                            <span class="fab fa-facebook"></span>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a id="twitter" href="https://twitter.com/">
-                        <span class="fab fa-twitter"></span>
+                        <span data-balloon="Kövesd Twitter fiókunkat!" data-balloon-pos="up">
+                            <span class="fab fa-twitter"></span>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a id="googleplus" href="https://plus.google.com/">
-                        <span class="fab fa-google-plus"></span>
+                        <span data-balloon="Kövesd Google+ oldalunkat!" data-balloon-pos="up">
+                            <span class="fab fa-google-plus"></span>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a id="youtube" href="https://youtube.com/">
-                        <span class="fab fa-youtube"></span>
+                        <span data-balloon="Kövesd YouTube csatornánkat!" data-balloon-pos="up">
+                            <span class="fab fa-youtube"></span>
+                        </span>
                     </a>
                 </li>
             </ul>
