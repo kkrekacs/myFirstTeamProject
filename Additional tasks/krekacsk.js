@@ -264,3 +264,11 @@ function findMostWanted() {
     }
     console.log(output);
 }
+
+function totalPrice() {
+    var price = 0;
+    for (var i in products) {
+        price += products[i].price;
+    }
+    console.log(`A termékek összára: ${price}`);
+}
