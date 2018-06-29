@@ -96,7 +96,7 @@ main {
     background: #44af68;
     color: #fff;
     padding: 0 200px;
-    margin: 0 auto;
+    margin: -40px auto 0 auto;
     height: 510px;
 }
 
@@ -144,7 +144,7 @@ main {
 .section7 {
     background: #44af68;
     padding: 0 200px;
-    margin: auto;
+    margin: -10px auto 0 auto;
     height: 270px;
     text-align: center;
     color: #fff;
@@ -154,7 +154,7 @@ main {
 .section8 {
     background: #fff;
     padding: 0 200px;
-    margin: 0 auto;
+    margin: -10px auto 0 auto;
     height: 270px;
     text-align: center;
 }
@@ -166,7 +166,7 @@ main {
 
 footer {
     background: #fff;    
-    margin: 0 auto 0px auto;
+    margin: 0 auto 0 auto;
     border-top: 1px solid #E8E8E8;
     height: 60px;
     width: 1200px;
