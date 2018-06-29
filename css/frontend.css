@@ -2,8 +2,8 @@
 /* Table of contents: 
 
     01 - Header
-    |___ Navbar
     |___ Header section
+    |___ Navbar
 
     02 - Main
     |___ Section 1
@@ -98,7 +98,8 @@ header h1 {
 }
 
 .section4 {
-    background: #44af68;
+    background: url(/img/stadion-section-small.jpg);
+    background-size: cover;    
     color: #fff;
     padding: 0 200px;
     margin: 0 auto;
@@ -244,15 +245,23 @@ img {
     text-decoration: none;
     display: inline-block;    
     margin: 4px 4px;
-    
+    font-size: 16px;
     border-radius: 0 99px 99px 0;
+}
+
+.btn-green-email:hover {  
+    background: #444;  
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .email {
     border: none;
     border-radius: 99px 0 0 99px;
     padding: 10px 40px 10px 40px;
-    
+    font-size: 16px;
     margin-right: -10px;
 }
 
