@@ -3,11 +3,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-size: 3em;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 p {
-    font-family: 'Nunito', sans-serif; 
+    font-family: 'Nunito', sans-serif;
+    margin: 5px 0px;
 }
 
 .contain {
@@ -24,8 +26,7 @@ p {
 
 .main-section-class-p-a {
     text-decoration: none;
+    background: url('/img/dash-dotted.png') repeat-x 100% 100%;
     color: #0D6E90;
-    border-bottom-color: #0D6E90;
-    border-bottom-style: dashed;
 }
 
