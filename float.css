@@ -96,6 +96,7 @@ background: rgb(72, 99, 134);
     border: 0mm;
     height: 30px;
     text-decoration: none;
+    font-family: nunito
   
 }
 
@@ -117,7 +118,8 @@ input[type=text], input[type=password] {
     margin: 0px;
     position: relative;
 left: 300px;
-border: rgb(19, 18, 18)
+border: rgb(19, 18, 18);
+font-family: nunito
 
 }
 #comment {
@@ -130,7 +132,8 @@ border: rgb(19, 18, 18)
     font-weight: bold;
     border: rgb(236, 235, 235);
     background: #ffffff;
-left: 300px
+left: 300px;
+font-family: nunito
 
 }
 
