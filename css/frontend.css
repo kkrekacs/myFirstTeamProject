@@ -128,7 +128,7 @@ header h1 {
 .section7 {
     background: #44af68;
     padding: 0 200px;
-    margin: 0 auto;
+    margin: auto;
     height: 270px;
     text-align: center;
     color: #fff;
@@ -270,9 +270,8 @@ input:focus {
 }
 
 .full-width {
-    position: relative;
-    box-sizing: border-box;    
-    padding: 10px;
+    position: relative;   
+    padding: 50px 10px 10px 10px;
     width: calc(100% - 20px);
     margin: 10px;
     
@@ -306,6 +305,34 @@ input:focus {
 
     .one-third {
         width: calc(33.33% - 20px);
+    }
+
+    .btn-green-email {
+        background-color: #008D4C;
+        border: none;
+        color: white;
+        padding: 10px 40px 10px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;    
+        margin: auto;
+        font-size: 16px;
+        border-radius: 0 99px 99px 0;
+    }
+    
+    .btn-green-email:hover {  
+        background: #444;  
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;   
+    }
+    
+    .email {
+        border: none;
+        border-radius: 99px 0 0 99px;
+        padding: 10px 40px 10px 40px;
+        font-size: 16px;
     }
 
 }
