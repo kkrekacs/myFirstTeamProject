@@ -1,11 +1,8 @@
-.container {
+.head {
    
-    margin: none;
-    overflow: 0;
     width: 1200px;
-    height: 170vh;
-    background: rgb(253, 253, 253);
-    
+
+
       }
    
 
@@ -16,7 +13,7 @@
     float: left;
     height: 510px;
     margin: 0px;
-    position: absolute;
+    position: relative;
     background: linear-gradient(-90deg, rgb(20, 143, 75), rgb(138, 201, 169));
 }
 
@@ -46,7 +43,7 @@ background: rgb(72, 99, 134);
     margin: 0px;
     left: 300px;
     top: 25px;
-    
+
 }
 
 .pic {
@@ -111,7 +108,7 @@ input[type=text], input[type=password] {
     width: 66.66%;
     padding: 5px;
     margin: 5px 0 22px 0;
-    display: inline-block;
+    
     border: none;
     background: #ffffff;
     border: rgb(236, 235, 235)
