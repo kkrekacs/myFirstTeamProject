@@ -2,9 +2,7 @@
    
     width: 1200px;
     margin-left: auto;
-    margin-right: auto;
-    background: #ffffff 
-    
+    margin-right: auto 
   }
 
      
@@ -20,7 +18,7 @@
 }
 
   .bg-lightblue {
-    background: rgb(171, 199, 209);
+    background: rgb(18, 104, 136);
     margin: 0 auto;
     position: absolute;
    
@@ -126,7 +124,7 @@ input[type=text], input[type=password] {
     right: 380px;
 
 border: rgb(19, 18, 18);
-font-family: nunito
+
 
 }
 #comment {
@@ -140,7 +138,7 @@ font-family: nunito
     border: rgb(236, 235, 235);
     background: #ffffff;
 left: 300px;
-font-family: nunito
+
 
 }
 
