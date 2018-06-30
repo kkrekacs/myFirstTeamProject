@@ -119,11 +119,12 @@ input[type=text], input[type=password] {
 .beviteli {
     box-sizing: border-box;
     right: 130px;
-    width: 66.66%;
+    width: 51%;
     float: right;
     height: 510px;
     margin: 0px;
     position: relative;
+    right: 380px;
 
 border: rgb(19, 18, 18);
 font-family: nunito
@@ -158,11 +159,11 @@ font-family: nunito
    
     
     padding: 10px;
-    width: 33.33%;
-    float: right;
+    width: 32%;
+    right: 300px;
     height: 100px;
     margin: 0px;
-    left: 700px;
+    right: -60px;
     position: absolute
   
 }
