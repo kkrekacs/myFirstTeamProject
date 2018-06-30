@@ -253,10 +253,38 @@ var products = [
 
 
 var mPopular = products[0];
+var newest = products[0];
+var priceA = 0;
+var avg = 0;
+
+for (var k in products) {
+    priceA += products[k].price
+    if (products[k].sold > mPopular.sold) {
+        mPopular = products[k]
+    }
+    if (products[k].createdAt > newest.createdAt) {
+        newest = products[k]
+    }
+}
+avg = Math.round(priceA / products.length)
+console.log(`A legnépszerűbb termék: ${mPopular.name}. 
+Eladott darabok: ${mPopular.sold}`);
+console.log(`A legújabb termék: ${newest.name}. 
+Feltöltés dátuma: ${newest.createdAt}`);
+console.log(`A termékek összára: ${priceA} Ft.`);
+console.log(`A termékek átlagára: ${avg} Ft.`);
+
+/* Nem működő kísérlet arra, hogy több terméket is megjeleníthessen a dátumnál.
 for (var k in products) {
     if (products[k].sold > mPopular.sold) {
         mPopular = products[k]
     }
+    if (products[k].createdAt >= newest.createdAt) {
+        if (products[k].createdAt === newest.createdAt) {
+            newest += products[k]
+        } else {
+            newest = products[k]
+        }
+    }
 }
-
-console.log(mPopular);
+*/
