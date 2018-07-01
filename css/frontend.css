@@ -105,7 +105,7 @@ main h4 {
     background: #fff;
     padding: 0 200px;
     margin: 0 auto 40px auto;
-    height: 270px;
+    height: 270px;     
 }
 
 .section2 {
@@ -135,7 +135,7 @@ main h4 {
 
 .section3-content {
     margin-top: 25px;     
-    text-align: right;
+    text-align: left;
 }
 
 .section3 img {
@@ -298,6 +298,15 @@ img {
     border-radius: 99px;
 }
 
+.btn-white:hover {  
+    background: #444;  
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
 .btn-green {
     background-color: #008D4C;
     border: none;
@@ -311,7 +320,7 @@ img {
     border-radius: 99px;
 }
 
-.btn-green:hover, .btn-white:hover {  
+.btn-green:hover {  
     background: #444;  
     cursor: pointer;
     display: inline-block;
@@ -415,7 +424,7 @@ input:focus {
     }
 
     .section1 {
-        height: 520px;
+        height: 590px;
     }
 
     .one-third {
