@@ -31,12 +31,19 @@ header {
     margin: 0 auto;
     position: relative;
     width: 1200px; 
-    height: 510px;   
-    overflow: auto;
+    height: 510px;
+    overflow: auto; 
 }
 
 header h1 {
     color: #fff;
+}
+
+div.one-fifty .header-image {
+    position: relative;
+    top: 46px;
+    max-height: 400px;
+    box-shadow: 0;
 }
 
 .header-section {
@@ -302,7 +309,7 @@ img {
     border-radius: 99px;
 }
 
-.btn-green:hover {  
+.btn-green:hover, .btn-white:hover {  
     background: #444;  
     cursor: pointer;
     display: inline-block;
