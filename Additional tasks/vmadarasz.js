@@ -273,8 +273,17 @@ for (var j = 1; j < Object.keys(products).length; j++) {
 /*  Termékek összára */
 var amount = products[0].price;
 var k = 0;
-while (k > Object.keys(products).length) {
-    amount += products[k].price;
-    k++
+while (k < Object.keys(products).length) {
+    amount = amount + products[k].price;
+    k++;
 }
-console.log(`A termékek összára: ${newest}`)
+console.log(`A termékek összára: ${amount} Ft`)
+
+/* Termékek átlagára */
+var average = 0;
+while (k < Object.keys(products).length) {
+    amount = amount + products[k].price;
+    k++;
+}
+average = amount / Object.keys(products).length
+console.log(`A termékek átlagára: ${average.toFixed(2)} Ft`)
