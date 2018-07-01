@@ -7,7 +7,7 @@ var products = [
         count: 0,
         sold: 256,
         createdAt: "2018-06-01",
-        updatedAt: "2018-06-04",
+        updatedAt: "2018-06-04"
     },
     {
         id: 10002,
@@ -17,7 +17,7 @@ var products = [
         count: 8,
         sold: 86,
         createdAt: "2018-06-01",
-        updatedAt: "2018-06-04",
+        updatedAt: "2018-06-04"
     },
     {
         id: 10003,
@@ -27,7 +27,7 @@ var products = [
         count: 50,
         sold: 180,
         createdAt: "2018-06-04",
-        updatedAt: "2018-06-04",
+        updatedAt: "2018-06-04"
     },
     {
         id: 10004,
@@ -37,7 +37,7 @@ var products = [
         count: 0,
         sold: 41,
         createdAt: "2018-06-04",
-        updatedAt: "2018-06-04",
+        updatedAt: "2018-06-04"
     },
     {
         id: 10005,
@@ -47,7 +47,7 @@ var products = [
         count: 5,
         sold: 39,
         createdAt: "2018-06-04",
-        updatedAt: "2018-06-25",
+        updatedAt: "2018-06-25"
     },
     {
         id: 10006,
@@ -57,7 +57,7 @@ var products = [
         count: 0,
         sold: 52,
         createdAt: "2018-06-04",
-        updatedAt: "2018-06-04",
+        updatedAt: "2018-06-04"
     },
     {
         id: 10007,
@@ -67,7 +67,7 @@ var products = [
         count: 0,
         sold: 486,
         createdAt: "2018-06-06",
-        updatedAt: "2018-06-25",
+        updatedAt: "2018-06-25"
     },
     {
         id: 10008,
@@ -77,7 +77,7 @@ var products = [
         count: 0,
         sold: 27,
         createdAt: "2018-06-07",
-        updatedAt: "2018-06-22",
+        updatedAt: "2018-06-22"
     },
     {
         id: 10009,
@@ -87,7 +87,7 @@ var products = [
         count: 34,
         sold: 76,
         createdAt: "2018-06-08",
-        updatedAt: "2018-06-08",
+        updatedAt: "2018-06-08"
     },
     {
         id: 10010,
@@ -97,7 +97,7 @@ var products = [
         count: 6,
         sold: 10,
         createdAt: "2018-06-08",
-        updatedAt: "2018-06-11",
+        updatedAt: "2018-06-11"
     },
     {
         id: 10011,
@@ -107,7 +107,7 @@ var products = [
         count: 2,
         sold: 24,
         createdAt: "2018-06-11",
-        updatedAt: "2018-06-11",
+        updatedAt: "2018-06-11"
     },
     {
         id: 10012,
@@ -117,7 +117,7 @@ var products = [
         count: 1,
         sold: 84,
         createdAt: "2018-06-12",
-        updatedAt: "2018-06-12",
+        updatedAt: "2018-06-12"
     },
     {
         id: 10013,
@@ -127,7 +127,7 @@ var products = [
         count: 0,
         sold: 35,
         createdAt: "2018-06-13",
-        updatedAt: "2018-06-15",
+        updatedAt: "2018-06-15"
     },
     {
         id: 10014,
@@ -137,7 +137,7 @@ var products = [
         count: 2,
         sold: 43,
         createdAt: "2018-06-13",
-        updatedAt: "2018-06-15",
+        updatedAt: "2018-06-15"
     },
     {
         id: 10015,
@@ -147,7 +147,7 @@ var products = [
         count: 3,
         sold: 87,
         createdAt: "2018-06-15",
-        updatedAt: "2018-06-15",
+        updatedAt: "2018-06-15"
     },
     {
         id: 10016,
@@ -157,7 +157,7 @@ var products = [
         count: 4,
         sold: 30,
         createdAt: "2018-06-15",
-        updatedAt: "2018-06-15",
+        updatedAt: "2018-06-15"
     },
     {
         id: 10017,
@@ -167,7 +167,7 @@ var products = [
         count: 4,
         sold: 30,
         createdAt: "2018-06-18",
-        updatedAt: "2018-06-20",
+        updatedAt: "2018-06-20"
     },
     {
         id: 10018,
@@ -177,7 +177,7 @@ var products = [
         count: 9,
         sold: 183,
         createdAt: "2018-06-18",
-        updatedAt: "2018-06-20",
+        updatedAt: "2018-06-20"
     },
     {
         id: 10019,
@@ -187,7 +187,7 @@ var products = [
         count: 9,
         sold: 183,
         createdAt: "2018-06-18",
-        updatedAt: "2018-06-20",
+        updatedAt: "2018-06-20"
     },
     {
         id: 10020,
@@ -197,7 +197,7 @@ var products = [
         count: 15,
         sold: 156,
         createdAt: "2018-06-19",
-        updatedAt: "2018-06-20",
+        updatedAt: "2018-06-20"
     },
     {
         id: 10021,
@@ -207,7 +207,7 @@ var products = [
         count: 4,
         sold: 67,
         createdAt: "2018-06-19",
-        updatedAt: "2018-06-20",
+        updatedAt: "2018-06-20"
     },
     {
         id: 10022,
@@ -217,7 +217,7 @@ var products = [
         count: 10,
         sold: 154,
         createdAt: "2018-06-19",
-        updatedAt: "2018-06-20",
+        updatedAt: "2018-06-20"
     },
     {
         id: 10023,
@@ -227,7 +227,7 @@ var products = [
         count: 19,
         sold: 165,
         createdAt: "2018-06-20",
-        updatedAt: "2018-06-20",
+        updatedAt: "2018-06-20"
     },
     {
         id: 10024,
@@ -237,7 +237,7 @@ var products = [
         count: 7,
         sold: 99,
         createdAt: "2018-06-20",
-        updatedAt: "2018-06-25",
+        updatedAt: "2018-06-25"
     },
     {
         id: 10025,
@@ -246,8 +246,7 @@ var products = [
         price: 1199,
         count: 7,
         sold: 75,
-        createdAt: "2018-06-20",
-        updatedAt: "2018-06-25",
+        createdAt: "2018-06-25",
+        updatedAt: "2018-06-25"
     }
-]
-
+];
