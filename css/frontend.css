@@ -203,7 +203,7 @@ main h4 {
 
 footer {
     background: #fff;    
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     border-top: 1px solid #E8E8E8;
     height: 60px;
     width: 1200px;
@@ -387,6 +387,15 @@ input:focus {
     float: left;  
 }
 
+.two-third {
+    position: relative;
+    box-sizing: border-box;    
+    padding: 10px;
+    width: calc(70% - 20px);
+    margin: 10px;
+    float: left;  
+}
+
 .one-fifty {
     position: relative;
     box-sizing: border-box;    
@@ -405,7 +414,12 @@ input:focus {
     .one-third {
         width: calc(33.33% - 20px);
         height: 100%;
-    }   
+    }
+    
+    .two-third {
+        width: calc(66.66% - 20px);
+        height: 100%;
+    }
 
     .one-third img {
         bottom:40px;
@@ -429,6 +443,14 @@ input:focus {
 
     .one-third {
         width: 100%;      
+    }
+
+    .main-section {
+        height: 700px;
+    }
+
+    .two-third {
+        width: 100%;
     }
     
     .one-third img {

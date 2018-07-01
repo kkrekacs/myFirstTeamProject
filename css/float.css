@@ -1,0 +1,24 @@
+.main-section {
+    background: #fff;
+    padding: 0 200px;
+    margin: 0 auto 0 auto;
+    height: 500px;     
+}
+
+.fkover {
+    font-weight: bold;
+}
+
+.main-section-div-h2 {
+    text-align: center;
+}
+
+input, textarea {
+    margin: 0.5em 0;
+    width: 100%;
+}
+
+footer div.one-fifty {
+    margin-top: -12px;
+    background-color: #fff;
+}
