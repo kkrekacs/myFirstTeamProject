@@ -252,4 +252,22 @@ var products = [
 ]
 
 /* A legnépszerűbb termék */
+
 var popular = products[0].sold;
+for (var i = 1; i < Object.keys(products).length; i++) {
+    if (products[i].sold > popular) {
+        popular = products[i].name;
+    }
+    console.log(`A legnépszerűbb termék: ${popular}`)
+}
+
+/* A legújabb terméket */
+var newest = products[0].createdAt;
+function teszt() {
+    for (var i = 1; i < Object.keys(products).length; i++) {
+        if (products[i].createdAt < newest) {
+            newest = products[i].name;
+        }
+        console.log(`A legújabb termék: ${newest}`)
+    }
+}
