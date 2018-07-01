@@ -246,7 +246,7 @@ var products = [
         price: 1199,
         count: 7,
         sold: 75,
-        createdAt: "2018-06-20",
+        createdAt: "2018-06-25",
         updatedAt: "2018-06-25",
     }
 ]
@@ -263,11 +263,18 @@ for (var i = 1; i < Object.keys(products).length; i++) {
 
 /* A legújabb terméket */
 var newest = products[0].createdAt;
-function teszt() {
-    for (var i = 1; i < Object.keys(products).length; i++) {
-        if (products[i].createdAt < newest) {
-            newest = products[i].name;
-        }
-        console.log(`A legújabb termék: ${newest}`)
+for (var j = 1; j < Object.keys(products).length; j++) {
+    if (products[j].createdAt > newest) {
+        newest = products[j].name;
     }
+    console.log(`A legújabb termék: ${newest}`)
 }
+
+/*  Termékek összára */
+var amount = products[0].price;
+var k = 0;
+while (k > Object.keys(products).length) {
+    amount += products[k].price;
+    k++
+}
+console.log(`A termékek összára: ${newest}`)
