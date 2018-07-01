@@ -31,12 +31,15 @@ header {
     margin: 0 auto;
     position: relative;
     width: 1200px; 
-    height: 510px;
-    overflow: auto; 
+    overflow: hidden; 
 }
 
-header h1 {
+header h1, header p {
     color: #fff;
+}
+
+.teaming {
+    margin-top: 2em;
 }
 
 div.one-fifty .header-image {
@@ -48,7 +51,7 @@ div.one-fifty .header-image {
 
 .header-section {
     position: relative;
-    height: auto;
+    /*height: auto;*/
     padding: 0 200px;
     margin: 0 auto;     
 }
@@ -293,7 +296,6 @@ img {
     margin: 4px 4px;
     font-size: 16px;
     border-radius: 99px;
-
 }
 
 .btn-green {
