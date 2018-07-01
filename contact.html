@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" class="head">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
@@ -77,92 +77,45 @@
         </div>
     </header>
     <main>
-        <form action="/action_page.php" style="border:1px solid #ccc">
-
-
-
-            <div class="beviteli">
-
-                <div>
-                    <p style="font-size: 33px">Kapcsolat</p>
-
-
-
-                    <div class="welcome" style="font-weight: normal; color: gray; font-family: nunito">
-
-                        <p style="font-weight: bold; color: black; font-family: 'Nunito'"> Bármilyen észrevétel esetén bátran keressen minket, és vedd fel velünk a kapcsolatot.
-
-                            <p style="color: gray; font-family: 'Nunito'"> Áruházunkban valamennyi sportszert megtalálható. Abban az esetben, ha olyat szeretnél rendelni,
-                                amelyet áruházunk jelenleg nem forgalmaz, kérésedre késedelem nélkül beszerezzük. Sportszerek
-                                széles választékát forgalmazzuk, nekünk fontos, hogy Te is megtaláld a kívánt sportszereket!</p>
-
-
-                            <p style="font-weight: bold; color: black; font-family: 'Nunito'">Telefonszám: 06 20 333 4444</p>
-                            <p style="font-weight: bold; color: black; font-family: 'Nunito'">Email cím: ugyfelszolgalat@teaming360.com</p>
-                            <br>
-
-
-                    </div>
-
-
-                    <label for="Name" style="font-family: 'Nunito'">
-                        <b>Név</b>
-                        <br>
-                    </label>
-                    <input type="text" name="Name" style="border-style: solid" required>
-
-
-
+        <section>
+            <div class="one-fifty">
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    <p>Kapcsolat</p>
+                    <label for="name">Név</label>
                     <br>
-
-                    <label for="Age" style="font-family: 'Nunito'">
-                        <b>Tárgy</b>
-                        <br>
-                    </label>
-
-                    <input type="text" name="Age" style="border-style: solid" required>
-
+                    <input type="text" name="name" id="name" required>
                     <br>
-
-
-                    <label for="Age" style="font-family: 'Nunito'">
-                        <b>Email cím</b>
-                        <br>
-                    </label>
-                    <input type="text" name="Age" style="border-style: solid" required>
-
+                    <label for="age" style="font-family: 'Nunito'">Tárgy</label>
                     <br>
-
-
-
-
-                    <label for="comment" style="font-weight: bold; font-family: 'Nunito'">Megjegyzés</label>
+                    <input type="text" name="age" id="age" required>
                     <br>
-                    <textarea name="Megjegyzés" id="comment" cols="3000" rows="100" style="border-style: solid"></textarea>
-
+                    <label for="email" style="font-family: 'Nunito'">Email cím</label>
                     <br>
+                    <input type="text" name="email" required>
                     <br>
+                    <label for="message">Üzenet</label>
                     <br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <input type="button" value="Küldés" class="ok" style="font-family: 'Nunito'">
-
-                    <br>
-                    <br>
-                    <br>
-
-
-
-                </div>
-
+                    <input type="button" class="btn-green" value="Küldés" class="ok">
+                </form>
             </div>
-        </form>
+            <div class="one-fifty">
+                <p>
+                    Bármilyen észrevétel esetén bátran keressen minket, és vedd fel velünk a kapcsolatot.
+                </p>
+                <p> Áruházunkban valamennyi sportszert megtalálható. Abban az esetben, ha olyat szeretnél rendelni, amelyet áruházunk
+                    jelenleg nem forgalmaz, kérésedre késedelem nélkül beszerezzük. Sportszerek széles választékát forgalmazzuk,
+                    nekünk fontos, hogy Te is megtaláld a kívánt sportszereket!
+                </p>
+                <p>
+                    Telefonszám: 06 20 333 4444
+                </p>
+                <p>
+                    Email cím: ugyfelszolgalat@teaming360.com
+                </p>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="one-fifty">
@@ -171,36 +124,36 @@
         <div class="one-fifty">
             <ul class="social">
                 <li>
-                    <a id="instagram" href="https://instagram.com/">
-                        <span data-balloon="Kövesd Instagram oldalunkat! " data-balloon-pos="up">
+                    <a id="instagram" href="https://instagram.com/ ">
+                        <span data-balloon="Kövesd Instagram oldalunkat! " data-balloon-pos="up ">
                             <span class="fab fa-instagram "></span>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a id="facebook" href="https://facebook.com/">
-                        <span data-balloon="Kövesd Facebook profilunkat! " data-balloon-pos="up">
+                    <a id="facebook" href="https://facebook.com/ ">
+                        <span data-balloon="Kövesd Facebook profilunkat! " data-balloon-pos="up ">
                             <span class="fab fa-facebook "></span>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a id="twitter" href="https://twitter.com/">
-                        <span data-balloon="Kövesd Twitter fiókunkat! " data-balloon-pos="up">
+                    <a id="twitter" href="https://twitter.com/ ">
+                        <span data-balloon="Kövesd Twitter fiókunkat! " data-balloon-pos="up ">
                             <span class="fab fa-twitter "></span>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a id="googleplus" href="https://plus.google.com/">
-                        <span data-balloon="Kövesd Google+ oldalunkat! " data-balloon-pos="up">
+                    <a id="googleplus" href="https://plus.google.com/ ">
+                        <span data-balloon="Kövesd Google+ oldalunkat! " data-balloon-pos="up ">
                             <span class="fab fa-google-plus "></span>
                         </span>
                     </a>
                 </li>
                 <li>
-                    <a id="youtube" href="https://youtube.com/">
-                        <span data-balloon="Kövesd YouTube csatornánkat!" data-balloon-pos="up">
+                    <a id="youtube" href="https://youtube.com/ ">
+                        <span data-balloon="Kövesd YouTube csatornánkat! " data-balloon-pos="up ">
                             <span class="fab fa-youtube "></span>
                         </span>
                     </a>
@@ -209,6 +162,5 @@
         </div>
     </footer>
 </body>
-
 
 </html>
