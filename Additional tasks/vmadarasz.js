@@ -258,17 +258,19 @@ for (var i = 1; i < Object.keys(products).length; i++) {
     if (products[i].sold > popular) {
         popular = products[i].name;
     }
-    console.log(`A legnépszerűbb termék: ${popular}`)
 }
+console.log(`A legnépszerűbb termék: ${popular}`)
 
 /* A legújabb terméket */
 var newest = products[0].createdAt;
 for (var j = 1; j < Object.keys(products).length; j++) {
     if (products[j].createdAt > newest) {
-        newest = products[j].name;
+        newest = products[j].createdAt;
     }
-    console.log(`A legújabb termék: ${newest}`)
+    newest = products[j].name;
 }
+console.log(`A legújabb termék: ${newest}`)
+
 
 /*  Termékek összára */
 var amount = products[0].price;
