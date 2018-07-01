@@ -251,3 +251,5 @@ var products = [
     }
 ]
 
+/* A legnépszerűbb termék */
+var popular = products[0].sold;
