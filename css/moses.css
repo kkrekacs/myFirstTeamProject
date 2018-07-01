@@ -10,8 +10,8 @@
     background: 
       /* top, transparent green */ 
       linear-gradient(
-        #125c19bf, 
-        #125c19bf
+        rgba(18, 92, 25, 0.8), 
+        rgba(18, 92, 25, 0.8)
       ),
       /* bottom, image */
       url(/img/stadion-section-small.jpg);
